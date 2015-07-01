@@ -98,6 +98,25 @@ ec2-user 22133  0.0  0.1 113848  1968 ?        S    18:41   0:00 sshd: ec2-user@
 ec2-user 22134  0.0  0.1 115268  1884 pts/4    Ss   18:41   0:00 -bash
 ec2-user 22157  0.0  0.1 117164  1208 pts/4    R+   18:41   0:00 ps aux
 
+6) Instance: i-fa72d632
+    command: ifconfig
 
+eth0      Link encap:Ethernet  HWaddr 0A:FB:FC:5B:98:9B  
+          inet addr:10.0.6.127  Bcast:10.0.6.255  Mask:255.255.255.0
+          inet6 addr: fe80::8fb:fcff:fe5b:989b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:50244 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:24601 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:70631876 (67.3 MiB)  TX bytes:1567793 (1.4 MiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
 
 
