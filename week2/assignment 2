@@ -519,3 +519,971 @@ hmaccalc-0.9.12-1.9.amzn1.x86_64
 cryptsetup-1.6.3-2.18.amzn1.x86_64
 parted-2.1-21.18.amzn1.x86_64
 bind-utils-9.8.2-0.30.rc1.36.amzn1.x86_64
+
+10a) Instance: i-da43e712
+      command: sudo yum update
+       Output:
+
+Loaded plugins: priorities, update-motd, upgrade-helper
+amzn-main/latest                                                                                                                                                                   | 2.1 kB     00:00     
+amzn-updates/latest                                                                                                                                                                | 2.3 kB     00:00     
+Resolving Dependencies
+--> Running transaction check
+---> Package at.x86_64 0:3.1.10-44.12.amzn1 will be updated
+---> Package at.x86_64 0:3.1.10-44.13.amzn1 will be an update
+---> Package aws-amitools-ec2.noarch 0:1.5.6-1.1.amzn1 will be updated
+---> Package aws-amitools-ec2.noarch 0:1.5.7-1.0.amzn1 will be an update
+---> Package aws-apitools-common.noarch 0:1.1.0-1.8.amzn1 will be updated
+---> Package aws-apitools-common.noarch 0:1.1.0-1.9.amzn1 will be an update
+---> Package aws-cfn-bootstrap.noarch 0:1.4-5.4.amzn1 will be updated
+---> Package aws-cfn-bootstrap.noarch 0:1.4-9.4.amzn1 will be an update
+---> Package aws-cli.noarch 0:1.7.14-1.8.amzn1 will be updated
+---> Package aws-cli.noarch 0:1.7.34-1.16.amzn1 will be an update
+---> Package cloud-init.noarch 0:0.7.6-2.4.amzn1 will be updated
+---> Package cloud-init.noarch 0:0.7.6-2.5.amzn1 will be an update
+---> Package cryptsetup.x86_64 0:1.6.3-2.18.amzn1 will be updated
+---> Package cryptsetup.x86_64 0:1.6.3-2.19.amzn1 will be an update
+---> Package cryptsetup-libs.x86_64 0:1.6.3-2.18.amzn1 will be updated
+---> Package cryptsetup-libs.x86_64 0:1.6.3-2.19.amzn1 will be an update
+---> Package curl.x86_64 0:7.40.0-1.49.amzn1 will be updated
+---> Package curl.x86_64 0:7.40.0-3.51.amzn1 will be an update
+---> Package e2fsprogs.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package e2fsprogs.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package e2fsprogs-libs.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package e2fsprogs-libs.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package ec2-net-utils.noarch 0:0.4-1.22.amzn1 will be updated
+---> Package ec2-net-utils.noarch 0:0.4-1.23.amzn1 will be an update
+---> Package ec2-utils.noarch 0:0.4-1.22.amzn1 will be updated
+---> Package ec2-utils.noarch 0:0.4-1.23.amzn1 will be an update
+---> Package glibc.x86_64 0:2.17-55.140.amzn1 will be updated
+---> Package glibc.x86_64 0:2.17-55.143.amzn1 will be an update
+---> Package glibc-common.x86_64 0:2.17-55.140.amzn1 will be updated
+---> Package glibc-common.x86_64 0:2.17-55.143.amzn1 will be an update
+---> Package gnupg2.x86_64 0:2.0.25-2.28.amzn1 will be updated
+---> Package gnupg2.x86_64 0:2.0.25-2.29.amzn1 will be an update
+---> Package gpgme.x86_64 0:1.3.2-1.13.amzn1 will be updated
+---> Package gpgme.x86_64 0:1.4.3-5.15.amzn1 will be an update
+---> Package kernel.x86_64 0:3.14.44-32.39.amzn1 will be installed
+---> Package kernel-tools.x86_64 0:3.14.35-28.38.amzn1 will be updated
+---> Package kernel-tools.x86_64 0:3.14.44-32.39.amzn1 will be an update
+---> Package krb5-libs.x86_64 0:1.10.3-33.28.amzn1 will be updated
+---> Package krb5-libs.x86_64 0:1.10.3-37.29.amzn1 will be an update
+---> Package libcap-ng.x86_64 0:0.7.3-5.12.amzn1 will be updated
+---> Package libcap-ng.x86_64 0:0.7.3-5.13.amzn1 will be an update
+---> Package libcom_err.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package libcom_err.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package libcurl.x86_64 0:7.40.0-1.49.amzn1 will be updated
+---> Package libcurl.x86_64 0:7.40.0-3.51.amzn1 will be an update
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.9.amzn1 will be updated
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.10.amzn1 will be an update
+---> Package libselinux.x86_64 0:2.1.10-3.21.amzn1 will be updated
+---> Package libselinux.x86_64 0:2.1.10-3.22.amzn1 will be an update
+---> Package libss.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package libss.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package openssl.x86_64 1:1.0.1k-1.82.amzn1 will be updated
+---> Package openssl.x86_64 1:1.0.1k-10.86.amzn1 will be an update
+---> Package pcre.x86_64 0:8.21-7.5.amzn1 will be updated
+---> Package pcre.x86_64 0:8.21-7.7.amzn1 will be an update
+---> Package python27.x86_64 0:2.7.9-4.114.amzn1 will be updated
+---> Package python27.x86_64 0:2.7.9-4.115.amzn1 will be an update
+---> Package python27-bcdoc.noarch 0:0.13.0-1.6.amzn1 will be updated
+---> Package python27-bcdoc.noarch 0:0.16.0-1.9.amzn1 will be an update
+---> Package python27-boto.noarch 0:2.36.0-1.6.amzn1 will be updated
+---> Package python27-boto.noarch 0:2.38.0-1.7.amzn1 will be an update
+---> Package python27-botocore.noarch 0:0.95.0-1.6.amzn1 will be updated
+---> Package python27-botocore.noarch 0:1.0.0-0.1.b3.14.amzn1 will be an update
+---> Package python27-configobj.noarch 0:4.7.2-7.14.amzn1 will be updated
+---> Package python27-configobj.noarch 0:4.7.2-7.15.amzn1 will be an update
+---> Package python27-devel.x86_64 0:2.7.9-4.114.amzn1 will be updated
+---> Package python27-devel.x86_64 0:2.7.9-4.115.amzn1 will be an update
+---> Package python27-jmespath.noarch 0:0.6.1-1.6.amzn1 will be updated
+---> Package python27-jmespath.noarch 0:0.7.1-1.9.amzn1 will be an update
+---> Package python27-libs.x86_64 0:2.7.9-4.114.amzn1 will be updated
+---> Package python27-libs.x86_64 0:2.7.9-4.115.amzn1 will be an update
+---> Package python27-pip.noarch 0:6.0.8-1.18.amzn1 will be updated
+---> Package python27-pip.noarch 0:6.1.1-1.20.amzn1 will be an update
+---> Package python27-setuptools.noarch 0:12.2-1.29.amzn1 will be updated
+---> Package python27-setuptools.noarch 0:12.2-1.30.amzn1 will be an update
+---> Package rpm.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package rpm-build-libs.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm-build-libs.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package rpm-libs.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm-libs.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package rpm-python27.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm-python27.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package ruby20.x86_64 0:2.0.0.643-1.21.amzn1 will be updated
+---> Package ruby20.x86_64 0:2.0.0.645-1.27.amzn1 will be an update
+---> Package ruby20-irb.noarch 0:2.0.0.643-1.21.amzn1 will be updated
+---> Package ruby20-irb.noarch 0:2.0.0.645-1.27.amzn1 will be an update
+---> Package ruby20-libs.x86_64 0:2.0.0.643-1.21.amzn1 will be updated
+---> Package ruby20-libs.x86_64 0:2.0.0.645-1.27.amzn1 will be an update
+---> Package rubygem20-bigdecimal.x86_64 0:1.2.0-1.21.amzn1 will be updated
+---> Package rubygem20-bigdecimal.x86_64 0:1.2.0-1.27.amzn1 will be an update
+---> Package rubygem20-psych.x86_64 0:2.0.0-1.21.amzn1 will be updated
+---> Package rubygem20-psych.x86_64 0:2.0.0-1.27.amzn1 will be an update
+---> Package rubygems20.noarch 0:2.0.14-1.21.amzn1 will be updated
+---> Package rubygems20.noarch 0:2.0.14-1.27.amzn1 will be an update
+---> Package time.x86_64 0:1.7-37.1.8.amzn1 will be updated
+---> Package time.x86_64 0:1.7-38.9.amzn1 will be an update
+---> Package tzdata.noarch 0:2015a-1.31.amzn1 will be updated
+---> Package tzdata.noarch 0:2015b-1.33.amzn1 will be an update
+---> Package tzdata-java.noarch 0:2015a-1.31.amzn1 will be updated
+---> Package tzdata-java.noarch 0:2015b-1.33.amzn1 will be an update
+---> Package unzip.x86_64 0:6.0-1.8.amzn1 will be updated
+---> Package unzip.x86_64 0:6.0-2.9.amzn1 will be an update
+---> Package yum.noarch 0:3.4.3-137.54.amzn1 will be updated
+---> Package yum.noarch 0:3.4.3-137.57.amzn1 will be an update
+---> Package yum-metadata-parser.x86_64 0:1.1.4-8.11.amzn1 will be updated
+---> Package yum-metadata-parser.x86_64 0:1.1.4-8.12.amzn1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+==========================================================================================================================================================================================================
+ Package                                               Arch                                    Version                                                Repository                                     Size
+==========================================================================================================================================================================================================
+Installing:
+ kernel                                                x86_64                                  3.14.44-32.39.amzn1                                    amzn-updates                                   16 M
+Updating:
+ at                                                    x86_64                                  3.1.10-44.13.amzn1                                     amzn-updates                                   65 k
+ aws-amitools-ec2                                      noarch                                  1.5.7-1.0.amzn1                                        amzn-updates                                  104 k
+ aws-apitools-common                                   noarch                                  1.1.0-1.9.amzn1                                        amzn-updates                                  4.9 k
+ aws-cfn-bootstrap                                     noarch                                  1.4-9.4.amzn1                                          amzn-updates                                  862 k
+ aws-cli                                               noarch                                  1.7.34-1.16.amzn1                                      amzn-updates                                  712 k
+ cloud-init                                            noarch                                  0.7.6-2.5.amzn1                                        amzn-updates                                  420 k
+ cryptsetup                                            x86_64                                  1.6.3-2.19.amzn1                                       amzn-updates                                  113 k
+ cryptsetup-libs                                       x86_64                                  1.6.3-2.19.amzn1                                       amzn-updates                                  252 k
+ curl                                                  x86_64                                  7.40.0-3.51.amzn1                                      amzn-updates                                  285 k
+ e2fsprogs                                             x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                  1.1 M
+ e2fsprogs-libs                                        x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                  182 k
+ ec2-net-utils                                         noarch                                  0.4-1.23.amzn1                                         amzn-updates                                   11 k
+ ec2-utils                                             noarch                                  0.4-1.23.amzn1                                         amzn-updates                                  7.7 k
+ glibc                                                 x86_64                                  2.17-55.143.amzn1                                      amzn-updates                                  5.7 M
+ glibc-common                                          x86_64                                  2.17-55.143.amzn1                                      amzn-updates                                   28 M
+ gnupg2                                                x86_64                                  2.0.25-2.29.amzn1                                      amzn-updates                                  2.5 M
+ gpgme                                                 x86_64                                  1.4.3-5.15.amzn1                                       amzn-updates                                  234 k
+ kernel-tools                                          x86_64                                  3.14.44-32.39.amzn1                                    amzn-updates                                   90 k
+ krb5-libs                                             x86_64                                  1.10.3-37.29.amzn1                                     amzn-updates                                  919 k
+ libcap-ng                                             x86_64                                  0.7.3-5.13.amzn1                                       amzn-updates                                   24 k
+ libcom_err                                            x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                   45 k
+ libcurl                                               x86_64                                  7.40.0-3.51.amzn1                                      amzn-updates                                  258 k
+ libjpeg-turbo                                         x86_64                                  1.2.90-5.10.amzn1                                      amzn-updates                                  143 k
+ libselinux                                            x86_64                                  2.1.10-3.22.amzn1                                      amzn-updates                                  132 k
+ libss                                                 x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                   50 k
+ openssl                                               x86_64                                  1:1.0.1k-10.86.amzn1                                   amzn-updates                                  1.6 M
+ pcre                                                  x86_64                                  8.21-7.7.amzn1                                         amzn-updates                                  254 k
+ python27                                              x86_64                                  2.7.9-4.115.amzn1                                      amzn-updates                                   97 k
+ python27-bcdoc                                        noarch                                  0.16.0-1.9.amzn1                                       amzn-updates                                   32 k
+ python27-boto                                         noarch                                  2.38.0-1.7.amzn1                                       amzn-updates                                  2.1 M
+ python27-botocore                                     noarch                                  1.0.0-0.1.b3.14.amzn1                                  amzn-updates                                  4.5 M
+ python27-configobj                                    noarch                                  4.7.2-7.15.amzn1                                       amzn-updates                                  157 k
+ python27-devel                                        x86_64                                  2.7.9-4.115.amzn1                                      amzn-updates                                  518 k
+ python27-jmespath                                     noarch                                  0.7.1-1.9.amzn1                                        amzn-updates                                   41 k
+ python27-libs                                         x86_64                                  2.7.9-4.115.amzn1                                      amzn-updates                                  6.8 M
+ python27-pip                                          noarch                                  6.1.1-1.20.amzn1                                       amzn-updates                                  1.9 M
+ python27-setuptools                                   noarch                                  12.2-1.30.amzn1                                        amzn-updates                                  579 k
+ rpm                                                   x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                  1.4 M
+ rpm-build-libs                                        x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                  107 k
+ rpm-libs                                              x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                  291 k
+ rpm-python27                                          x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                   82 k
+ ruby20                                                x86_64                                  2.0.0.645-1.27.amzn1                                   amzn-updates                                   69 k
+ ruby20-irb                                            noarch                                  2.0.0.645-1.27.amzn1                                   amzn-updates                                   89 k
+ ruby20-libs                                           x86_64                                  2.0.0.645-1.27.amzn1                                   amzn-updates                                  3.7 M
+ rubygem20-bigdecimal                                  x86_64                                  1.2.0-1.27.amzn1                                       amzn-updates                                   79 k
+ rubygem20-psych                                       x86_64                                  2.0.0-1.27.amzn1                                       amzn-updates                                   76 k
+ rubygems20                                            noarch                                  2.0.14-1.27.amzn1                                      amzn-updates                                  224 k
+ time                                                  x86_64                                  1.7-38.9.amzn1                                         amzn-updates                                   27 k
+ tzdata                                                noarch                                  2015b-1.33.amzn1                                       amzn-updates                                  760 k
+ tzdata-java                                           noarch                                  2015b-1.33.amzn1                                       amzn-updates                                  215 k
+ unzip                                                 x86_64                                  6.0-2.9.amzn1                                          amzn-updates                                  196 k
+ yum                                                   noarch                                  3.4.3-137.57.amzn1                                     amzn-updates                                  1.7 M
+ yum-metadata-parser                                   x86_64                                  1.1.4-8.12.amzn1                                       amzn-updates                                   29 k
+
+Transaction Summary
+==========================================================================================================================================================================================================
+Install   1 Package
+Upgrade  53 Packages
+
+Total download size: 85 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/54): at-3.1.10-44.13.amzn1.x86_64.rpm                                                                                                                                           |  65 kB     00:00     
+(2/54): aws-amitools-ec2-1.5.7-1.0.amzn1.noarch.rpm                                                                                                                                | 104 kB     00:00     
+(3/54): aws-apitools-common-1.1.0-1.9.amzn1.noarch.rpm                                                                                                                             | 4.9 kB     00:00     
+(4/54): aws-cfn-bootstrap-1.4-9.4.amzn1.noarch.rpm                                                                                                                                 | 862 kB     00:00     
+(5/54): aws-cli-1.7.34-1.16.amzn1.noarch.rpm                                                                                                                                       | 712 kB     00:00     
+(6/54): cloud-init-0.7.6-2.5.amzn1.noarch.rpm                                                                                                                                      | 420 kB     00:00     
+(7/54): cryptsetup-1.6.3-2.19.amzn1.x86_64.rpm                                                                                                                                     | 113 kB     00:00     
+(8/54): cryptsetup-libs-1.6.3-2.19.amzn1.x86_64.rpm                                                                                                                                | 252 kB     00:00     
+(9/54): curl-7.40.0-3.51.amzn1.x86_64.rpm                                                                                                                                          | 285 kB     00:00     
+(10/54): e2fsprogs-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                                   | 1.1 MB     00:00     
+(11/54): e2fsprogs-libs-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                              | 182 kB     00:00     
+(12/54): ec2-net-utils-0.4-1.23.amzn1.noarch.rpm                                                                                                                                   |  11 kB     00:00     
+(13/54): ec2-utils-0.4-1.23.amzn1.noarch.rpm                                                                                                                                       | 7.7 kB     00:00     
+(14/54): glibc-2.17-55.143.amzn1.x86_64.rpm                                                                                                                                        | 5.7 MB     00:00     
+(15/54): glibc-common-2.17-55.143.amzn1.x86_64.rpm                                                                                                                                 |  28 MB     00:00     
+(16/54): gnupg2-2.0.25-2.29.amzn1.x86_64.rpm                                                                                                                                       | 2.5 MB     00:00     
+(17/54): gpgme-1.4.3-5.15.amzn1.x86_64.rpm                                                                                                                                         | 234 kB     00:00     
+(18/54): kernel-3.14.44-32.39.amzn1.x86_64.rpm                                                                                                                                     |  16 MB     00:00     
+(19/54): kernel-tools-3.14.44-32.39.amzn1.x86_64.rpm                                                                                                                               |  90 kB     00:00     
+(20/54): krb5-libs-1.10.3-37.29.amzn1.x86_64.rpm                                                                                                                                   | 919 kB     00:00     
+(21/54): libcap-ng-0.7.3-5.13.amzn1.x86_64.rpm                                                                                                                                     |  24 kB     00:00     
+(22/54): libcom_err-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                                  |  45 kB     00:00     
+(23/54): libcurl-7.40.0-3.51.amzn1.x86_64.rpm                                                                                                                                      | 258 kB     00:00     
+(24/54): libjpeg-turbo-1.2.90-5.10.amzn1.x86_64.rpm                                                                                                                                | 143 kB     00:00     
+(25/54): libselinux-2.1.10-3.22.amzn1.x86_64.rpm                                                                                                                                   | 132 kB     00:00     
+(26/54): libss-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                                       |  50 kB     00:00     
+(27/54): openssl-1.0.1k-10.86.amzn1.x86_64.rpm                                                                                                                                     | 1.6 MB     00:00     
+(28/54): pcre-8.21-7.7.amzn1.x86_64.rpm                                                                                                                                            | 254 kB     00:00     
+(29/54): python27-2.7.9-4.115.amzn1.x86_64.rpm                                                                                                                                     |  97 kB     00:00     
+(30/54): python27-bcdoc-0.16.0-1.9.amzn1.noarch.rpm                                                                                                                                |  32 kB     00:00     
+(31/54): python27-boto-2.38.0-1.7.amzn1.noarch.rpm                                                                                                                                 | 2.1 MB     00:00     
+(32/54): python27-botocore-1.0.0-0.1.b3.14.amzn1.noarch.rpm                                                                                                                        | 4.5 MB     00:00     
+(33/54): python27-configobj-4.7.2-7.15.amzn1.noarch.rpm                                                                                                                            | 157 kB     00:00     
+(34/54): python27-devel-2.7.9-4.115.amzn1.x86_64.rpm                                                                                                                               | 518 kB     00:00     
+(35/54): python27-jmespath-0.7.1-1.9.amzn1.noarch.rpm                                                                                                                              |  41 kB     00:00     
+(36/54): python27-libs-2.7.9-4.115.amzn1.x86_64.rpm                                                                                                                                | 6.8 MB     00:00     
+(37/54): python27-pip-6.1.1-1.20.amzn1.noarch.rpm                                                                                                                                  | 1.9 MB     00:00     
+(38/54): python27-setuptools-12.2-1.30.amzn1.noarch.rpm                                                                                                                            | 579 kB     00:00     
+(39/54): rpm-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                                          | 1.4 MB     00:00     
+(40/54): rpm-build-libs-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                               | 107 kB     00:00     
+(41/54): rpm-libs-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                                     | 291 kB     00:00     
+(42/54): rpm-python27-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                                 |  82 kB     00:00     
+(43/54): ruby20-2.0.0.645-1.27.amzn1.x86_64.rpm                                                                                                                                    |  69 kB     00:00     
+(44/54): ruby20-irb-2.0.0.645-1.27.amzn1.noarch.rpm                                                                                                                                |  89 kB     00:00     
+(45/54): ruby20-libs-2.0.0.645-1.27.amzn1.x86_64.rpm                                                                                                                               | 3.7 MB     00:00     
+(46/54): rubygem20-bigdecimal-1.2.0-1.27.amzn1.x86_64.rpm                                                                                                                          |  79 kB     00:00     
+(47/54): rubygem20-psych-2.0.0-1.27.amzn1.x86_64.rpm                                                                                                                               |  76 kB     00:00     
+(48/54): rubygems20-2.0.14-1.27.amzn1.noarch.rpm                                                                                                                                   | 224 kB     00:00     
+(49/54): time-1.7-38.9.amzn1.x86_64.rpm                                                                                                                                            |  27 kB     00:00     
+(50/54): tzdata-2015b-1.33.amzn1.noarch.rpm                                                                                                                                        | 760 kB     00:00     
+(51/54): tzdata-java-2015b-1.33.amzn1.noarch.rpm                                                                                                                                   | 215 kB     00:00     
+(52/54): unzip-6.0-2.9.amzn1.x86_64.rpm                                                                                                                                            | 196 kB     00:00     
+(53/54): yum-3.4.3-137.57.amzn1.noarch.rpm                                                                                                                                         | 1.7 MB     00:00     
+(54/54): yum-metadata-parser-1.1.4-8.12.amzn1.x86_64.rpm                                                                                                                           |  29 kB     00:00     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                                      39 MB/s |  85 MB  00:00:02     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : tzdata-2015b-1.33.amzn1.noarch                                                                                                                                                       1/107 
+  Updating   : glibc-common-2.17-55.143.amzn1.x86_64                                                                                                                                                2/107 
+  Updating   : glibc-2.17-55.143.amzn1.x86_64                                                                                                                                                       3/107 
+  Updating   : libselinux-2.1.10-3.22.amzn1.x86_64                                                                                                                                                  4/107 
+  Updating   : libcom_err-1.42.12-4.35.amzn1.x86_64                                                                                                                                                 5/107 
+  Updating   : krb5-libs-1.10.3-37.29.amzn1.x86_64                                                                                                                                                  6/107 
+  Updating   : 1:openssl-1.0.1k-10.86.amzn1.x86_64                                                                                                                                                  7/107 
+  Updating   : python27-2.7.9-4.115.amzn1.x86_64                                                                                                                                                    8/107 
+  Updating   : python27-libs-2.7.9-4.115.amzn1.x86_64                                                                                                                                               9/107 
+  Updating   : ruby20-libs-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                             10/107 
+  Updating   : python27-jmespath-0.7.1-1.9.amzn1.noarch                                                                                                                                            11/107 
+  Updating   : python27-bcdoc-0.16.0-1.9.amzn1.noarch                                                                                                                                              12/107 
+  Updating   : python27-setuptools-12.2-1.30.amzn1.noarch                                                                                                                                          13/107 
+  Updating   : libcurl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                    14/107 
+  Updating   : curl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                       15/107 
+  Updating   : rpm-4.11.2-2.64.amzn1.x86_64                                                                                                                                                        16/107 
+  Updating   : rpm-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                                   17/107 
+  Updating   : gnupg2-2.0.25-2.29.amzn1.x86_64                                                                                                                                                     18/107 
+  Updating   : rpm-build-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                             19/107 
+  Updating   : rpm-python27-4.11.2-2.64.amzn1.x86_64                                                                                                                                               20/107 
+  Updating   : python27-botocore-1.0.0-0.1.b3.14.amzn1.noarch                                                                                                                                      21/107 
+  Updating   : rubygem20-bigdecimal-1.2.0-1.27.amzn1.x86_64                                                                                                                                        22/107 
+  Updating   : rubygems20-2.0.14-1.27.amzn1.noarch                                                                                                                                                 23/107 
+  Updating   : ruby20-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                                  24/107 
+  Updating   : rubygem20-psych-2.0.0-1.27.amzn1.x86_64                                                                                                                                             25/107 
+  Updating   : yum-metadata-parser-1.1.4-8.12.amzn1.x86_64                                                                                                                                         26/107 
+  Updating   : python27-configobj-4.7.2-7.15.amzn1.noarch                                                                                                                                          27/107 
+  Updating   : libss-1.42.12-4.35.amzn1.x86_64                                                                                                                                                     28/107 
+  Updating   : e2fsprogs-libs-1.42.12-4.35.amzn1.x86_64                                                                                                                                            29/107 
+  Updating   : e2fsprogs-1.42.12-4.35.amzn1.x86_64                                                                                                                                                 30/107 
+  Updating   : cryptsetup-libs-1.6.3-2.19.amzn1.x86_64                                                                                                                                             31/107 
+  Updating   : cryptsetup-1.6.3-2.19.amzn1.x86_64                                                                                                                                                  32/107 
+  Updating   : cloud-init-0.7.6-2.5.amzn1.noarch                                                                                                                                                   33/107 
+  Updating   : aws-amitools-ec2-1.5.7-1.0.amzn1.noarch                                                                                                                                             34/107 
+  Updating   : yum-3.4.3-137.57.amzn1.noarch                                                                                                                                                       35/107 
+  Updating   : ruby20-irb-2.0.0.645-1.27.amzn1.noarch                                                                                                                                              36/107 
+  Updating   : aws-cli-1.7.34-1.16.amzn1.noarch                                                                                                                                                    37/107 
+  Updating   : gpgme-1.4.3-5.15.amzn1.x86_64                                                                                                                                                       38/107 
+  Updating   : ec2-net-utils-0.4-1.23.amzn1.noarch                                                                                                                                                 39/107 
+  Updating   : ec2-utils-0.4-1.23.amzn1.noarch                                                                                                                                                     40/107 
+  Updating   : aws-cfn-bootstrap-1.4-9.4.amzn1.noarch                                                                                                                                              41/107 
+  Updating   : python27-pip-6.1.1-1.20.amzn1.noarch                                                                                                                                                42/107 
+  Updating   : python27-boto-2.38.0-1.7.amzn1.noarch                                                                                                                                               43/107 
+  Updating   : python27-devel-2.7.9-4.115.amzn1.x86_64                                                                                                                                             44/107 
+  Updating   : at-3.1.10-44.13.amzn1.x86_64                                                                                                                                                        45/107 
+  Updating   : libjpeg-turbo-1.2.90-5.10.amzn1.x86_64                                                                                                                                              46/107 
+  Updating   : unzip-6.0-2.9.amzn1.x86_64                                                                                                                                                          47/107 
+  Updating   : pcre-8.21-7.7.amzn1.x86_64                                                                                                                                                          48/107 
+  Updating   : time-1.7-38.9.amzn1.x86_64                                                                                                                                                          49/107 
+  Updating   : kernel-tools-3.14.44-32.39.amzn1.x86_64                                                                                                                                             50/107 
+  Updating   : libcap-ng-0.7.3-5.13.amzn1.x86_64                                                                                                                                                   51/107 
+  Updating   : aws-apitools-common-1.1.0-1.9.amzn1.noarch                                                                                                                                          52/107 
+  Updating   : tzdata-java-2015b-1.33.amzn1.noarch                                                                                                                                                 53/107 
+  Installing : kernel-3.14.44-32.39.amzn1.x86_64                                                                                                                                                   54/107 
+  Cleanup    : yum-3.4.3-137.54.amzn1.noarch                                                                                                                                                       55/107 
+  Cleanup    : aws-amitools-ec2-1.5.6-1.1.amzn1.noarch                                                                                                                                             56/107 
+  Cleanup    : aws-cli-1.7.14-1.8.amzn1.noarch                                                                                                                                                     57/107 
+  Cleanup    : cloud-init-0.7.6-2.4.amzn1.noarch                                                                                                                                                   58/107 
+  Cleanup    : python27-devel-2.7.9-4.114.amzn1.x86_64                                                                                                                                             59/107 
+  Cleanup    : python27-botocore-0.95.0-1.6.amzn1.noarch                                                                                                                                           60/107 
+  Cleanup    : python27-pip-6.0.8-1.18.amzn1.noarch                                                                                                                                                61/107 
+  Cleanup    : python27-setuptools-12.2-1.29.amzn1.noarch                                                                                                                                          62/107 
+  Cleanup    : python27-jmespath-0.6.1-1.6.amzn1.noarch                                                                                                                                            63/107 
+  Cleanup    : python27-configobj-4.7.2-7.14.amzn1.noarch                                                                                                                                          64/107 
+  Cleanup    : python27-bcdoc-0.13.0-1.6.amzn1.noarch                                                                                                                                              65/107 
+  Cleanup    : ec2-utils-0.4-1.22.amzn1.noarch                                                                                                                                                     66/107 
+  Cleanup    : python27-boto-2.36.0-1.6.amzn1.noarch                                                                                                                                               67/107 
+  Cleanup    : ec2-net-utils-0.4-1.22.amzn1.noarch                                                                                                                                                 68/107 
+  Cleanup    : ruby20-irb-2.0.0.643-1.21.amzn1.noarch                                                                                                                                              69/107 
+  Cleanup    : aws-cfn-bootstrap-1.4-5.4.amzn1.noarch                                                                                                                                              70/107 
+  Cleanup    : rpm-python27-4.11.2-2.63.amzn1.x86_64                                                                                                                                               71/107 
+  Cleanup    : rpm-build-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                             72/107 
+  Cleanup    : rubygem20-psych-2.0.0-1.21.amzn1.x86_64                                                                                                                                             73/107 
+  Cleanup    : ruby20-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                                  74/107 
+  Cleanup    : rubygem20-bigdecimal-1.2.0-1.21.amzn1.x86_64                                                                                                                                        75/107 
+  Cleanup    : rubygems20-2.0.14-1.21.amzn1.noarch                                                                                                                                                 76/107 
+  Cleanup    : e2fsprogs-1.42.12-1.34.amzn1.x86_64                                                                                                                                                 77/107 
+  Cleanup    : ruby20-libs-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                             78/107 
+  Cleanup    : rpm-4.11.2-2.63.amzn1.x86_64                                                                                                                                                        79/107 
+  Cleanup    : rpm-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                                   80/107 
+  Cleanup    : yum-metadata-parser-1.1.4-8.11.amzn1.x86_64                                                                                                                                         81/107 
+  Cleanup    : python27-libs-2.7.9-4.114.amzn1.x86_64                                                                                                                                              82/107 
+  Cleanup    : python27-2.7.9-4.114.amzn1.x86_64                                                                                                                                                   83/107 
+  Cleanup    : 1:openssl-1.0.1k-1.82.amzn1.x86_64                                                                                                                                                  84/107 
+  Cleanup    : cryptsetup-1.6.3-2.18.amzn1.x86_64                                                                                                                                                  85/107 
+  Cleanup    : curl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                       86/107 
+  Cleanup    : e2fsprogs-libs-1.42.12-1.34.amzn1.x86_64                                                                                                                                            87/107 
+  Cleanup    : libss-1.42.12-1.34.amzn1.x86_64                                                                                                                                                     88/107 
+  Cleanup    : gpgme-1.3.2-1.13.amzn1.x86_64                                                                                                                                                       89/107 
+  Cleanup    : gnupg2-2.0.25-2.28.amzn1.x86_64                                                                                                                                                     90/107 
+  Cleanup    : libcurl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                    91/107 
+  Cleanup    : krb5-libs-1.10.3-33.28.amzn1.x86_64                                                                                                                                                 92/107 
+  Cleanup    : at-3.1.10-44.12.amzn1.x86_64                                                                                                                                                        93/107 
+  Cleanup    : libcom_err-1.42.12-1.34.amzn1.x86_64                                                                                                                                                94/107 
+  Cleanup    : cryptsetup-libs-1.6.3-2.18.amzn1.x86_64                                                                                                                                             95/107 
+  Cleanup    : libcap-ng-0.7.3-5.12.amzn1.x86_64                                                                                                                                                   96/107 
+  Cleanup    : kernel-tools-3.14.35-28.38.amzn1.x86_64                                                                                                                                             97/107 
+  Cleanup    : time-1.7-37.1.8.amzn1.x86_64                                                                                                                                                        98/107 
+  Cleanup    : pcre-8.21-7.5.amzn1.x86_64                                                                                                                                                          99/107 
+  Cleanup    : unzip-6.0-1.8.amzn1.x86_64                                                                                                                                                         100/107 
+  Cleanup    : libjpeg-turbo-1.2.90-5.9.amzn1.x86_64                                                                                                                                              101/107 
+  Cleanup    : aws-apitools-common-1.1.0-1.8.amzn1.noarch                                                                                                                                         102/107 
+  Cleanup    : tzdata-java-2015a-1.31.amzn1.noarch                                                                                                                                                103/107 
+  Cleanup    : libselinux-2.1.10-3.21.amzn1.x86_64                                                                                                                                                104/107 
+  Cleanup    : glibc-common-2.17-55.140.amzn1.x86_64                                                                                                                                              105/107 
+  Cleanup    : glibc-2.17-55.140.amzn1.x86_64                                                                                                                                                     106/107 
+  Cleanup    : tzdata-2015a-1.31.amzn1.noarch                                                                                                                                                     107/107 
+  Verifying  : kernel-3.14.44-32.39.amzn1.x86_64                                                                                                                                                    1/107 
+  Verifying  : rpm-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                                    2/107 
+  Verifying  : libss-1.42.12-4.35.amzn1.x86_64                                                                                                                                                      3/107 
+  Verifying  : krb5-libs-1.10.3-37.29.amzn1.x86_64                                                                                                                                                  4/107 
+  Verifying  : aws-cfn-bootstrap-1.4-9.4.amzn1.noarch                                                                                                                                               5/107 
+  Verifying  : python27-jmespath-0.7.1-1.9.amzn1.noarch                                                                                                                                             6/107 
+  Verifying  : libjpeg-turbo-1.2.90-5.10.amzn1.x86_64                                                                                                                                               7/107 
+  Verifying  : python27-configobj-4.7.2-7.15.amzn1.noarch                                                                                                                                           8/107 
+  Verifying  : unzip-6.0-2.9.amzn1.x86_64                                                                                                                                                           9/107 
+  Verifying  : libcom_err-1.42.12-4.35.amzn1.x86_64                                                                                                                                                10/107 
+  Verifying  : e2fsprogs-libs-1.42.12-4.35.amzn1.x86_64                                                                                                                                            11/107 
+  Verifying  : tzdata-2015b-1.33.amzn1.noarch                                                                                                                                                      12/107 
+  Verifying  : rubygem20-bigdecimal-1.2.0-1.27.amzn1.x86_64                                                                                                                                        13/107 
+  Verifying  : 1:openssl-1.0.1k-10.86.amzn1.x86_64                                                                                                                                                 14/107 
+  Verifying  : libselinux-2.1.10-3.22.amzn1.x86_64                                                                                                                                                 15/107 
+  Verifying  : pcre-8.21-7.7.amzn1.x86_64                                                                                                                                                          16/107 
+  Verifying  : libcurl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                    17/107 
+  Verifying  : curl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                       18/107 
+  Verifying  : time-1.7-38.9.amzn1.x86_64                                                                                                                                                          19/107 
+  Verifying  : rpm-python27-4.11.2-2.64.amzn1.x86_64                                                                                                                                               20/107 
+  Verifying  : python27-pip-6.1.1-1.20.amzn1.noarch                                                                                                                                                21/107 
+  Verifying  : ruby20-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                                  22/107 
+  Verifying  : ruby20-irb-2.0.0.645-1.27.amzn1.noarch                                                                                                                                              23/107 
+  Verifying  : rubygems20-2.0.14-1.27.amzn1.noarch                                                                                                                                                 24/107 
+  Verifying  : cloud-init-0.7.6-2.5.amzn1.noarch                                                                                                                                                   25/107 
+  Verifying  : e2fsprogs-1.42.12-4.35.amzn1.x86_64                                                                                                                                                 26/107 
+  Verifying  : ec2-net-utils-0.4-1.23.amzn1.noarch                                                                                                                                                 27/107 
+  Verifying  : python27-bcdoc-0.16.0-1.9.amzn1.noarch                                                                                                                                              28/107 
+  Verifying  : tzdata-java-2015b-1.33.amzn1.noarch                                                                                                                                                 29/107 
+  Verifying  : cryptsetup-libs-1.6.3-2.19.amzn1.x86_64                                                                                                                                             30/107 
+  Verifying  : python27-2.7.9-4.115.amzn1.x86_64                                                                                                                                                   31/107 
+  Verifying  : python27-libs-2.7.9-4.115.amzn1.x86_64                                                                                                                                              32/107 
+  Verifying  : glibc-2.17-55.143.amzn1.x86_64                                                                                                                                                      33/107 
+  Verifying  : glibc-common-2.17-55.143.amzn1.x86_64                                                                                                                                               34/107 
+  Verifying  : python27-setuptools-12.2-1.30.amzn1.noarch                                                                                                                                          35/107 
+  Verifying  : kernel-tools-3.14.44-32.39.amzn1.x86_64                                                                                                                                             36/107 
+  Verifying  : libcap-ng-0.7.3-5.13.amzn1.x86_64                                                                                                                                                   37/107 
+  Verifying  : python27-boto-2.38.0-1.7.amzn1.noarch                                                                                                                                               38/107 
+  Verifying  : rubygem20-psych-2.0.0-1.27.amzn1.x86_64                                                                                                                                             39/107 
+  Verifying  : aws-cli-1.7.34-1.16.amzn1.noarch                                                                                                                                                    40/107 
+  Verifying  : aws-amitools-ec2-1.5.7-1.0.amzn1.noarch                                                                                                                                             41/107 
+  Verifying  : yum-3.4.3-137.57.amzn1.noarch                                                                                                                                                       42/107 
+  Verifying  : aws-apitools-common-1.1.0-1.9.amzn1.noarch                                                                                                                                          43/107 
+  Verifying  : ec2-utils-0.4-1.23.amzn1.noarch                                                                                                                                                     44/107 
+  Verifying  : yum-metadata-parser-1.1.4-8.12.amzn1.x86_64                                                                                                                                         45/107 
+  Verifying  : python27-botocore-1.0.0-0.1.b3.14.amzn1.noarch                                                                                                                                      46/107 
+  Verifying  : at-3.1.10-44.13.amzn1.x86_64                                                                                                                                                        47/107 
+  Verifying  : ruby20-libs-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                             48/107 
+  Verifying  : gnupg2-2.0.25-2.29.amzn1.x86_64                                                                                                                                                     49/107 
+  Verifying  : rpm-build-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                             50/107 
+  Verifying  : gpgme-1.4.3-5.15.amzn1.x86_64                                                                                                                                                       51/107 
+  Verifying  : rpm-4.11.2-2.64.amzn1.x86_64                                                                                                                                                        52/107 
+  Verifying  : cryptsetup-1.6.3-2.19.amzn1.x86_64                                                                                                                                                  53/107 
+  Verifying  : python27-devel-2.7.9-4.115.amzn1.x86_64                                                                                                                                             54/107 
+  Verifying  : krb5-libs-1.10.3-33.28.amzn1.x86_64                                                                                                                                                 55/107 
+  Verifying  : python27-jmespath-0.6.1-1.6.amzn1.noarch                                                                                                                                            56/107 
+  Verifying  : pcre-8.21-7.5.amzn1.x86_64                                                                                                                                                          57/107 
+  Verifying  : e2fsprogs-1.42.12-1.34.amzn1.x86_64                                                                                                                                                 58/107 
+  Verifying  : rpm-python27-4.11.2-2.63.amzn1.x86_64                                                                                                                                               59/107 
+  Verifying  : time-1.7-37.1.8.amzn1.x86_64                                                                                                                                                        60/107 
+  Verifying  : ruby20-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                                  61/107 
+  Verifying  : rubygem20-bigdecimal-1.2.0-1.21.amzn1.x86_64                                                                                                                                        62/107 
+  Verifying  : aws-cli-1.7.14-1.8.amzn1.noarch                                                                                                                                                     63/107 
+  Verifying  : python27-configobj-4.7.2-7.14.amzn1.noarch                                                                                                                                          64/107 
+  Verifying  : cryptsetup-1.6.3-2.18.amzn1.x86_64                                                                                                                                                  65/107 
+  Verifying  : ruby20-irb-2.0.0.643-1.21.amzn1.noarch                                                                                                                                              66/107 
+  Verifying  : libselinux-2.1.10-3.21.amzn1.x86_64                                                                                                                                                 67/107 
+  Verifying  : glibc-common-2.17-55.140.amzn1.x86_64                                                                                                                                               68/107 
+  Verifying  : tzdata-java-2015a-1.31.amzn1.noarch                                                                                                                                                 69/107 
+  Verifying  : cloud-init-0.7.6-2.4.amzn1.noarch                                                                                                                                                   70/107 
+  Verifying  : gpgme-1.3.2-1.13.amzn1.x86_64                                                                                                                                                       71/107 
+  Verifying  : ruby20-libs-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                             72/107 
+  Verifying  : aws-apitools-common-1.1.0-1.8.amzn1.noarch                                                                                                                                          73/107 
+  Verifying  : tzdata-2015a-1.31.amzn1.noarch                                                                                                                                                      74/107 
+  Verifying  : rpm-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                                   75/107 
+  Verifying  : gnupg2-2.0.25-2.28.amzn1.x86_64                                                                                                                                                     76/107 
+  Verifying  : libcurl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                    77/107 
+  Verifying  : python27-libs-2.7.9-4.114.amzn1.x86_64                                                                                                                                              78/107 
+  Verifying  : yum-metadata-parser-1.1.4-8.11.amzn1.x86_64                                                                                                                                         79/107 
+  Verifying  : at-3.1.10-44.12.amzn1.x86_64                                                                                                                                                        80/107 
+  Verifying  : aws-amitools-ec2-1.5.6-1.1.amzn1.noarch                                                                                                                                             81/107 
+  Verifying  : python27-botocore-0.95.0-1.6.amzn1.noarch                                                                                                                                           82/107 
+  Verifying  : glibc-2.17-55.140.amzn1.x86_64                                                                                                                                                      83/107 
+  Verifying  : libcap-ng-0.7.3-5.12.amzn1.x86_64                                                                                                                                                   84/107 
+  Verifying  : rpm-build-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                             85/107 
+  Verifying  : curl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                       86/107 
+  Verifying  : unzip-6.0-1.8.amzn1.x86_64                                                                                                                                                          87/107 
+  Verifying  : e2fsprogs-libs-1.42.12-1.34.amzn1.x86_64                                                                                                                                            88/107 
+  Verifying  : 1:openssl-1.0.1k-1.82.amzn1.x86_64                                                                                                                                                  89/107 
+  Verifying  : python27-boto-2.36.0-1.6.amzn1.noarch                                                                                                                                               90/107 
+  Verifying  : rubygems20-2.0.14-1.21.amzn1.noarch                                                                                                                                                 91/107 
+  Verifying  : python27-bcdoc-0.13.0-1.6.amzn1.noarch                                                                                                                                              92/107 
+  Verifying  : aws-cfn-bootstrap-1.4-5.4.amzn1.noarch                                                                                                                                              93/107 
+  Verifying  : rubygem20-psych-2.0.0-1.21.amzn1.x86_64                                                                                                                                             94/107 
+  Verifying  : python27-2.7.9-4.114.amzn1.x86_64                                                                                                                                                   95/107 
+  Verifying  : libcom_err-1.42.12-1.34.amzn1.x86_64                                                                                                                                                96/107 
+  Verifying  : yum-3.4.3-137.54.amzn1.noarch                                                                                                                                                       97/107 
+  Verifying  : ec2-utils-0.4-1.22.amzn1.noarch                                                                                                                                                     98/107 
+  Verifying  : libss-1.42.12-1.34.amzn1.x86_64                                                                                                                                                     99/107 
+  Verifying  : kernel-tools-3.14.35-28.38.amzn1.x86_64                                                                                                                                            100/107 
+  Verifying  : python27-setuptools-12.2-1.29.amzn1.noarch                                                                                                                                         101/107 
+  Verifying  : python27-pip-6.0.8-1.18.amzn1.noarch                                                                                                                                               102/107 
+  Verifying  : ec2-net-utils-0.4-1.22.amzn1.noarch                                                                                                                                                103/107 
+  Verifying  : libjpeg-turbo-1.2.90-5.9.amzn1.x86_64                                                                                                                                              104/107 
+  Verifying  : python27-devel-2.7.9-4.114.amzn1.x86_64                                                                                                                                            105/107 
+  Verifying  : cryptsetup-libs-1.6.3-2.18.amzn1.x86_64                                                                                                                                            106/107 
+  Verifying  : rpm-4.11.2-2.63.amzn1.x86_64                                                                                                                                                       107/107 
+
+Installed:
+  kernel.x86_64 0:3.14.44-32.39.amzn1                                                                                                                                                                     
+
+Updated:
+  at.x86_64 0:3.1.10-44.13.amzn1                     aws-amitools-ec2.noarch 0:1.5.7-1.0.amzn1      aws-apitools-common.noarch 0:1.1.0-1.9.amzn1         aws-cfn-bootstrap.noarch 0:1.4-9.4.amzn1        
+  aws-cli.noarch 0:1.7.34-1.16.amzn1                 cloud-init.noarch 0:0.7.6-2.5.amzn1            cryptsetup.x86_64 0:1.6.3-2.19.amzn1                 cryptsetup-libs.x86_64 0:1.6.3-2.19.amzn1       
+  curl.x86_64 0:7.40.0-3.51.amzn1                    e2fsprogs.x86_64 0:1.42.12-4.35.amzn1          e2fsprogs-libs.x86_64 0:1.42.12-4.35.amzn1           ec2-net-utils.noarch 0:0.4-1.23.amzn1           
+  ec2-utils.noarch 0:0.4-1.23.amzn1                  glibc.x86_64 0:2.17-55.143.amzn1               glibc-common.x86_64 0:2.17-55.143.amzn1              gnupg2.x86_64 0:2.0.25-2.29.amzn1               
+  gpgme.x86_64 0:1.4.3-5.15.amzn1                    kernel-tools.x86_64 0:3.14.44-32.39.amzn1      krb5-libs.x86_64 0:1.10.3-37.29.amzn1                libcap-ng.x86_64 0:0.7.3-5.13.amzn1             
+  libcom_err.x86_64 0:1.42.12-4.35.amzn1             libcurl.x86_64 0:7.40.0-3.51.amzn1             libjpeg-turbo.x86_64 0:1.2.90-5.10.amzn1             libselinux.x86_64 0:2.1.10-3.22.amzn1           
+  libss.x86_64 0:1.42.12-4.35.amzn1                  openssl.x86_64 1:1.0.1k-10.86.amzn1            pcre.x86_64 0:8.21-7.7.amzn1                         python27.x86_64 0:2.7.9-4.115.amzn1             
+  python27-bcdoc.noarch 0:0.16.0-1.9.amzn1           python27-boto.noarch 0:2.38.0-1.7.amzn1        python27-botocore.noarch 0:1.0.0-0.1.b3.14.amzn1     python27-configobj.noarch 0:4.7.2-7.15.amzn1    
+  python27-devel.x86_64 0:2.7.9-4.115.amzn1          python27-jmespath.noarch 0:0.7.1-1.9.amzn1     python27-libs.x86_64 0:2.7.9-4.115.amzn1             python27-pip.noarch 0:6.1.1-1.20.amzn1          
+  python27-setuptools.noarch 0:12.2-1.30.amzn1       rpm.x86_64 0:4.11.2-2.64.amzn1                 rpm-build-libs.x86_64 0:4.11.2-2.64.amzn1            rpm-libs.x86_64 0:4.11.2-2.64.amzn1             
+  rpm-python27.x86_64 0:4.11.2-2.64.amzn1            ruby20.x86_64 0:2.0.0.645-1.27.amzn1           ruby20-irb.noarch 0:2.0.0.645-1.27.amzn1             ruby20-libs.x86_64 0:2.0.0.645-1.27.amzn1       
+  rubygem20-bigdecimal.x86_64 0:1.2.0-1.27.amzn1     rubygem20-psych.x86_64 0:2.0.0-1.27.amzn1      rubygems20.noarch 0:2.0.14-1.27.amzn1                time.x86_64 0:1.7-38.9.amzn1                    
+  tzdata.noarch 0:2015b-1.33.amzn1                   tzdata-java.noarch 0:2015b-1.33.amzn1          unzip.x86_64 0:6.0-2.9.amzn1                         yum.noarch 0:3.4.3-137.57.amzn1                 
+  yum-metadata-parser.x86_64 0:1.1.4-8.12.amzn1     
+
+Complete!
+
+10b) Instance: i-fa72d632
+     command: sudo yum update
+      Output:
+
+Loaded plugins: priorities, update-motd, upgrade-helper
+amzn-main/latest                                                                                                                                                                   | 2.1 kB     00:00     
+amzn-updates/latest                                                                                                                                                                | 2.3 kB     00:00     
+Resolving Dependencies
+--> Running transaction check
+---> Package at.x86_64 0:3.1.10-44.12.amzn1 will be updated
+---> Package at.x86_64 0:3.1.10-44.13.amzn1 will be an update
+---> Package aws-amitools-ec2.noarch 0:1.5.6-1.1.amzn1 will be updated
+---> Package aws-amitools-ec2.noarch 0:1.5.7-1.0.amzn1 will be an update
+---> Package aws-apitools-common.noarch 0:1.1.0-1.8.amzn1 will be updated
+---> Package aws-apitools-common.noarch 0:1.1.0-1.9.amzn1 will be an update
+---> Package aws-cfn-bootstrap.noarch 0:1.4-5.4.amzn1 will be updated
+---> Package aws-cfn-bootstrap.noarch 0:1.4-9.4.amzn1 will be an update
+---> Package aws-cli.noarch 0:1.7.14-1.8.amzn1 will be updated
+---> Package aws-cli.noarch 0:1.7.34-1.16.amzn1 will be an update
+---> Package cloud-init.noarch 0:0.7.6-2.4.amzn1 will be updated
+---> Package cloud-init.noarch 0:0.7.6-2.5.amzn1 will be an update
+---> Package cryptsetup.x86_64 0:1.6.3-2.18.amzn1 will be updated
+---> Package cryptsetup.x86_64 0:1.6.3-2.19.amzn1 will be an update
+---> Package cryptsetup-libs.x86_64 0:1.6.3-2.18.amzn1 will be updated
+---> Package cryptsetup-libs.x86_64 0:1.6.3-2.19.amzn1 will be an update
+---> Package curl.x86_64 0:7.40.0-1.49.amzn1 will be updated
+---> Package curl.x86_64 0:7.40.0-3.51.amzn1 will be an update
+---> Package e2fsprogs.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package e2fsprogs.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package e2fsprogs-libs.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package e2fsprogs-libs.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package ec2-net-utils.noarch 0:0.4-1.22.amzn1 will be updated
+---> Package ec2-net-utils.noarch 0:0.4-1.23.amzn1 will be an update
+---> Package ec2-utils.noarch 0:0.4-1.22.amzn1 will be updated
+---> Package ec2-utils.noarch 0:0.4-1.23.amzn1 will be an update
+---> Package glibc.x86_64 0:2.17-55.140.amzn1 will be updated
+---> Package glibc.x86_64 0:2.17-55.143.amzn1 will be an update
+---> Package glibc-common.x86_64 0:2.17-55.140.amzn1 will be updated
+---> Package glibc-common.x86_64 0:2.17-55.143.amzn1 will be an update
+---> Package gnupg2.x86_64 0:2.0.25-2.28.amzn1 will be updated
+---> Package gnupg2.x86_64 0:2.0.25-2.29.amzn1 will be an update
+---> Package gpgme.x86_64 0:1.3.2-1.13.amzn1 will be updated
+---> Package gpgme.x86_64 0:1.4.3-5.15.amzn1 will be an update
+---> Package kernel.x86_64 0:3.14.44-32.39.amzn1 will be installed
+---> Package kernel-tools.x86_64 0:3.14.35-28.38.amzn1 will be updated
+---> Package kernel-tools.x86_64 0:3.14.44-32.39.amzn1 will be an update
+---> Package krb5-libs.x86_64 0:1.10.3-33.28.amzn1 will be updated
+---> Package krb5-libs.x86_64 0:1.10.3-37.29.amzn1 will be an update
+---> Package libcap-ng.x86_64 0:0.7.3-5.12.amzn1 will be updated
+---> Package libcap-ng.x86_64 0:0.7.3-5.13.amzn1 will be an update
+---> Package libcom_err.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package libcom_err.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package libcurl.x86_64 0:7.40.0-1.49.amzn1 will be updated
+---> Package libcurl.x86_64 0:7.40.0-3.51.amzn1 will be an update
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.9.amzn1 will be updated
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.10.amzn1 will be an update
+---> Package libselinux.x86_64 0:2.1.10-3.21.amzn1 will be updated
+---> Package libselinux.x86_64 0:2.1.10-3.22.amzn1 will be an update
+---> Package libss.x86_64 0:1.42.12-1.34.amzn1 will be updated
+---> Package libss.x86_64 0:1.42.12-4.35.amzn1 will be an update
+---> Package openssl.x86_64 1:1.0.1k-1.82.amzn1 will be updated
+---> Package openssl.x86_64 1:1.0.1k-10.86.amzn1 will be an update
+---> Package pcre.x86_64 0:8.21-7.5.amzn1 will be updated
+---> Package pcre.x86_64 0:8.21-7.7.amzn1 will be an update
+---> Package python27.x86_64 0:2.7.9-4.114.amzn1 will be updated
+---> Package python27.x86_64 0:2.7.9-4.115.amzn1 will be an update
+---> Package python27-bcdoc.noarch 0:0.13.0-1.6.amzn1 will be updated
+---> Package python27-bcdoc.noarch 0:0.16.0-1.9.amzn1 will be an update
+---> Package python27-boto.noarch 0:2.36.0-1.6.amzn1 will be updated
+---> Package python27-boto.noarch 0:2.38.0-1.7.amzn1 will be an update
+---> Package python27-botocore.noarch 0:0.95.0-1.6.amzn1 will be updated
+---> Package python27-botocore.noarch 0:1.0.0-0.1.b3.14.amzn1 will be an update
+---> Package python27-configobj.noarch 0:4.7.2-7.14.amzn1 will be updated
+---> Package python27-configobj.noarch 0:4.7.2-7.15.amzn1 will be an update
+---> Package python27-devel.x86_64 0:2.7.9-4.114.amzn1 will be updated
+---> Package python27-devel.x86_64 0:2.7.9-4.115.amzn1 will be an update
+---> Package python27-jmespath.noarch 0:0.6.1-1.6.amzn1 will be updated
+---> Package python27-jmespath.noarch 0:0.7.1-1.9.amzn1 will be an update
+---> Package python27-libs.x86_64 0:2.7.9-4.114.amzn1 will be updated
+---> Package python27-libs.x86_64 0:2.7.9-4.115.amzn1 will be an update
+---> Package python27-pip.noarch 0:6.0.8-1.18.amzn1 will be updated
+---> Package python27-pip.noarch 0:6.1.1-1.20.amzn1 will be an update
+---> Package python27-setuptools.noarch 0:12.2-1.29.amzn1 will be updated
+---> Package python27-setuptools.noarch 0:12.2-1.30.amzn1 will be an update
+---> Package rpm.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package rpm-build-libs.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm-build-libs.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package rpm-libs.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm-libs.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package rpm-python27.x86_64 0:4.11.2-2.63.amzn1 will be updated
+---> Package rpm-python27.x86_64 0:4.11.2-2.64.amzn1 will be an update
+---> Package ruby20.x86_64 0:2.0.0.643-1.21.amzn1 will be updated
+---> Package ruby20.x86_64 0:2.0.0.645-1.27.amzn1 will be an update
+---> Package ruby20-irb.noarch 0:2.0.0.643-1.21.amzn1 will be updated
+---> Package ruby20-irb.noarch 0:2.0.0.645-1.27.amzn1 will be an update
+---> Package ruby20-libs.x86_64 0:2.0.0.643-1.21.amzn1 will be updated
+---> Package ruby20-libs.x86_64 0:2.0.0.645-1.27.amzn1 will be an update
+---> Package rubygem20-bigdecimal.x86_64 0:1.2.0-1.21.amzn1 will be updated
+---> Package rubygem20-bigdecimal.x86_64 0:1.2.0-1.27.amzn1 will be an update
+---> Package rubygem20-psych.x86_64 0:2.0.0-1.21.amzn1 will be updated
+---> Package rubygem20-psych.x86_64 0:2.0.0-1.27.amzn1 will be an update
+---> Package rubygems20.noarch 0:2.0.14-1.21.amzn1 will be updated
+---> Package rubygems20.noarch 0:2.0.14-1.27.amzn1 will be an update
+---> Package time.x86_64 0:1.7-37.1.8.amzn1 will be updated
+---> Package time.x86_64 0:1.7-38.9.amzn1 will be an update
+---> Package tzdata.noarch 0:2015a-1.31.amzn1 will be updated
+---> Package tzdata.noarch 0:2015b-1.33.amzn1 will be an update
+---> Package tzdata-java.noarch 0:2015a-1.31.amzn1 will be updated
+---> Package tzdata-java.noarch 0:2015b-1.33.amzn1 will be an update
+---> Package unzip.x86_64 0:6.0-1.8.amzn1 will be updated
+---> Package unzip.x86_64 0:6.0-2.9.amzn1 will be an update
+---> Package yum.noarch 0:3.4.3-137.54.amzn1 will be updated
+---> Package yum.noarch 0:3.4.3-137.57.amzn1 will be an update
+---> Package yum-metadata-parser.x86_64 0:1.1.4-8.11.amzn1 will be updated
+---> Package yum-metadata-parser.x86_64 0:1.1.4-8.12.amzn1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+==========================================================================================================================================================================================================
+ Package                                               Arch                                    Version                                                Repository                                     Size
+==========================================================================================================================================================================================================
+Installing:
+ kernel                                                x86_64                                  3.14.44-32.39.amzn1                                    amzn-updates                                   16 M
+Updating:
+ at                                                    x86_64                                  3.1.10-44.13.amzn1                                     amzn-updates                                   65 k
+ aws-amitools-ec2                                      noarch                                  1.5.7-1.0.amzn1                                        amzn-updates                                  104 k
+ aws-apitools-common                                   noarch                                  1.1.0-1.9.amzn1                                        amzn-updates                                  4.9 k
+ aws-cfn-bootstrap                                     noarch                                  1.4-9.4.amzn1                                          amzn-updates                                  862 k
+ aws-cli                                               noarch                                  1.7.34-1.16.amzn1                                      amzn-updates                                  712 k
+ cloud-init                                            noarch                                  0.7.6-2.5.amzn1                                        amzn-updates                                  420 k
+ cryptsetup                                            x86_64                                  1.6.3-2.19.amzn1                                       amzn-updates                                  113 k
+ cryptsetup-libs                                       x86_64                                  1.6.3-2.19.amzn1                                       amzn-updates                                  252 k
+ curl                                                  x86_64                                  7.40.0-3.51.amzn1                                      amzn-updates                                  285 k
+ e2fsprogs                                             x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                  1.1 M
+ e2fsprogs-libs                                        x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                  182 k
+ ec2-net-utils                                         noarch                                  0.4-1.23.amzn1                                         amzn-updates                                   11 k
+ ec2-utils                                             noarch                                  0.4-1.23.amzn1                                         amzn-updates                                  7.7 k
+ glibc                                                 x86_64                                  2.17-55.143.amzn1                                      amzn-updates                                  5.7 M
+ glibc-common                                          x86_64                                  2.17-55.143.amzn1                                      amzn-updates                                   28 M
+ gnupg2                                                x86_64                                  2.0.25-2.29.amzn1                                      amzn-updates                                  2.5 M
+ gpgme                                                 x86_64                                  1.4.3-5.15.amzn1                                       amzn-updates                                  234 k
+ kernel-tools                                          x86_64                                  3.14.44-32.39.amzn1                                    amzn-updates                                   90 k
+ krb5-libs                                             x86_64                                  1.10.3-37.29.amzn1                                     amzn-updates                                  919 k
+ libcap-ng                                             x86_64                                  0.7.3-5.13.amzn1                                       amzn-updates                                   24 k
+ libcom_err                                            x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                   45 k
+ libcurl                                               x86_64                                  7.40.0-3.51.amzn1                                      amzn-updates                                  258 k
+ libjpeg-turbo                                         x86_64                                  1.2.90-5.10.amzn1                                      amzn-updates                                  143 k
+ libselinux                                            x86_64                                  2.1.10-3.22.amzn1                                      amzn-updates                                  132 k
+ libss                                                 x86_64                                  1.42.12-4.35.amzn1                                     amzn-updates                                   50 k
+ openssl                                               x86_64                                  1:1.0.1k-10.86.amzn1                                   amzn-updates                                  1.6 M
+ pcre                                                  x86_64                                  8.21-7.7.amzn1                                         amzn-updates                                  254 k
+ python27                                              x86_64                                  2.7.9-4.115.amzn1                                      amzn-updates                                   97 k
+ python27-bcdoc                                        noarch                                  0.16.0-1.9.amzn1                                       amzn-updates                                   32 k
+ python27-boto                                         noarch                                  2.38.0-1.7.amzn1                                       amzn-updates                                  2.1 M
+ python27-botocore                                     noarch                                  1.0.0-0.1.b3.14.amzn1                                  amzn-updates                                  4.5 M
+ python27-configobj                                    noarch                                  4.7.2-7.15.amzn1                                       amzn-updates                                  157 k
+ python27-devel                                        x86_64                                  2.7.9-4.115.amzn1                                      amzn-updates                                  518 k
+ python27-jmespath                                     noarch                                  0.7.1-1.9.amzn1                                        amzn-updates                                   41 k
+ python27-libs                                         x86_64                                  2.7.9-4.115.amzn1                                      amzn-updates                                  6.8 M
+ python27-pip                                          noarch                                  6.1.1-1.20.amzn1                                       amzn-updates                                  1.9 M
+ python27-setuptools                                   noarch                                  12.2-1.30.amzn1                                        amzn-updates                                  579 k
+ rpm                                                   x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                  1.4 M
+ rpm-build-libs                                        x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                  107 k
+ rpm-libs                                              x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                  291 k
+ rpm-python27                                          x86_64                                  4.11.2-2.64.amzn1                                      amzn-updates                                   82 k
+ ruby20                                                x86_64                                  2.0.0.645-1.27.amzn1                                   amzn-updates                                   69 k
+ ruby20-irb                                            noarch                                  2.0.0.645-1.27.amzn1                                   amzn-updates                                   89 k
+ ruby20-libs                                           x86_64                                  2.0.0.645-1.27.amzn1                                   amzn-updates                                  3.7 M
+ rubygem20-bigdecimal                                  x86_64                                  1.2.0-1.27.amzn1                                       amzn-updates                                   79 k
+ rubygem20-psych                                       x86_64                                  2.0.0-1.27.amzn1                                       amzn-updates                                   76 k
+ rubygems20                                            noarch                                  2.0.14-1.27.amzn1                                      amzn-updates                                  224 k
+ time                                                  x86_64                                  1.7-38.9.amzn1                                         amzn-updates                                   27 k
+ tzdata                                                noarch                                  2015b-1.33.amzn1                                       amzn-updates                                  760 k
+ tzdata-java                                           noarch                                  2015b-1.33.amzn1                                       amzn-updates                                  215 k
+ unzip                                                 x86_64                                  6.0-2.9.amzn1                                          amzn-updates                                  196 k
+ yum                                                   noarch                                  3.4.3-137.57.amzn1                                     amzn-updates                                  1.7 M
+ yum-metadata-parser                                   x86_64                                  1.1.4-8.12.amzn1                                       amzn-updates                                   29 k
+
+Transaction Summary
+==========================================================================================================================================================================================================
+Install   1 Package
+Upgrade  53 Packages
+
+Total download size: 85 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/54): at-3.1.10-44.13.amzn1.x86_64.rpm                                                                                                                                           |  65 kB     00:00     
+(2/54): aws-amitools-ec2-1.5.7-1.0.amzn1.noarch.rpm                                                                                                                                | 104 kB     00:00     
+(3/54): aws-apitools-common-1.1.0-1.9.amzn1.noarch.rpm                                                                                                                             | 4.9 kB     00:00     
+(4/54): aws-cfn-bootstrap-1.4-9.4.amzn1.noarch.rpm                                                                                                                                 | 862 kB     00:00     
+(5/54): aws-cli-1.7.34-1.16.amzn1.noarch.rpm                                                                                                                                       | 712 kB     00:00     
+(6/54): cloud-init-0.7.6-2.5.amzn1.noarch.rpm                                                                                                                                      | 420 kB     00:00     
+(7/54): cryptsetup-1.6.3-2.19.amzn1.x86_64.rpm                                                                                                                                     | 113 kB     00:00     
+(8/54): cryptsetup-libs-1.6.3-2.19.amzn1.x86_64.rpm                                                                                                                                | 252 kB     00:00     
+(9/54): curl-7.40.0-3.51.amzn1.x86_64.rpm                                                                                                                                          | 285 kB     00:00     
+(10/54): e2fsprogs-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                                   | 1.1 MB     00:00     
+(11/54): e2fsprogs-libs-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                              | 182 kB     00:00     
+(12/54): ec2-net-utils-0.4-1.23.amzn1.noarch.rpm                                                                                                                                   |  11 kB     00:00     
+(13/54): ec2-utils-0.4-1.23.amzn1.noarch.rpm                                                                                                                                       | 7.7 kB     00:00     
+(14/54): glibc-2.17-55.143.amzn1.x86_64.rpm                                                                                                                                        | 5.7 MB     00:00     
+(15/54): glibc-common-2.17-55.143.amzn1.x86_64.rpm                                                                                                                                 |  28 MB     00:00     
+(16/54): gnupg2-2.0.25-2.29.amzn1.x86_64.rpm                                                                                                                                       | 2.5 MB     00:00     
+(17/54): gpgme-1.4.3-5.15.amzn1.x86_64.rpm                                                                                                                                         | 234 kB     00:00     
+(18/54): kernel-3.14.44-32.39.amzn1.x86_64.rpm                                                                                                                                     |  16 MB     00:00     
+(19/54): kernel-tools-3.14.44-32.39.amzn1.x86_64.rpm                                                                                                                               |  90 kB     00:00     
+(20/54): krb5-libs-1.10.3-37.29.amzn1.x86_64.rpm                                                                                                                                   | 919 kB     00:00     
+(21/54): libcap-ng-0.7.3-5.13.amzn1.x86_64.rpm                                                                                                                                     |  24 kB     00:00     
+(22/54): libcom_err-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                                  |  45 kB     00:00     
+(23/54): libcurl-7.40.0-3.51.amzn1.x86_64.rpm                                                                                                                                      | 258 kB     00:00     
+(24/54): libjpeg-turbo-1.2.90-5.10.amzn1.x86_64.rpm                                                                                                                                | 143 kB     00:00     
+(25/54): libselinux-2.1.10-3.22.amzn1.x86_64.rpm                                                                                                                                   | 132 kB     00:00     
+(26/54): libss-1.42.12-4.35.amzn1.x86_64.rpm                                                                                                                                       |  50 kB     00:00     
+(27/54): openssl-1.0.1k-10.86.amzn1.x86_64.rpm                                                                                                                                     | 1.6 MB     00:00     
+(28/54): pcre-8.21-7.7.amzn1.x86_64.rpm                                                                                                                                            | 254 kB     00:00     
+(29/54): python27-2.7.9-4.115.amzn1.x86_64.rpm                                                                                                                                     |  97 kB     00:00     
+(30/54): python27-bcdoc-0.16.0-1.9.amzn1.noarch.rpm                                                                                                                                |  32 kB     00:00     
+(31/54): python27-boto-2.38.0-1.7.amzn1.noarch.rpm                                                                                                                                 | 2.1 MB     00:00     
+(32/54): python27-botocore-1.0.0-0.1.b3.14.amzn1.noarch.rpm                                                                                                                        | 4.5 MB     00:00     
+(33/54): python27-configobj-4.7.2-7.15.amzn1.noarch.rpm                                                                                                                            | 157 kB     00:00     
+(34/54): python27-devel-2.7.9-4.115.amzn1.x86_64.rpm                                                                                                                               | 518 kB     00:00     
+(35/54): python27-jmespath-0.7.1-1.9.amzn1.noarch.rpm                                                                                                                              |  41 kB     00:00     
+(36/54): python27-libs-2.7.9-4.115.amzn1.x86_64.rpm                                                                                                                                | 6.8 MB     00:00     
+(37/54): python27-pip-6.1.1-1.20.amzn1.noarch.rpm                                                                                                                                  | 1.9 MB     00:00     
+(38/54): python27-setuptools-12.2-1.30.amzn1.noarch.rpm                                                                                                                            | 579 kB     00:00     
+(39/54): rpm-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                                          | 1.4 MB     00:00     
+(40/54): rpm-build-libs-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                               | 107 kB     00:00     
+(41/54): rpm-libs-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                                     | 291 kB     00:00     
+(42/54): rpm-python27-4.11.2-2.64.amzn1.x86_64.rpm                                                                                                                                 |  82 kB     00:00     
+(43/54): ruby20-2.0.0.645-1.27.amzn1.x86_64.rpm                                                                                                                                    |  69 kB     00:00     
+(44/54): ruby20-irb-2.0.0.645-1.27.amzn1.noarch.rpm                                                                                                                                |  89 kB     00:00     
+(45/54): ruby20-libs-2.0.0.645-1.27.amzn1.x86_64.rpm                                                                                                                               | 3.7 MB     00:00     
+(46/54): rubygem20-bigdecimal-1.2.0-1.27.amzn1.x86_64.rpm                                                                                                                          |  79 kB     00:00     
+(47/54): rubygem20-psych-2.0.0-1.27.amzn1.x86_64.rpm                                                                                                                               |  76 kB     00:00     
+(48/54): rubygems20-2.0.14-1.27.amzn1.noarch.rpm                                                                                                                                   | 224 kB     00:00     
+(49/54): time-1.7-38.9.amzn1.x86_64.rpm                                                                                                                                            |  27 kB     00:00     
+(50/54): tzdata-2015b-1.33.amzn1.noarch.rpm                                                                                                                                        | 760 kB     00:00     
+(51/54): tzdata-java-2015b-1.33.amzn1.noarch.rpm                                                                                                                                   | 215 kB     00:00     
+(52/54): unzip-6.0-2.9.amzn1.x86_64.rpm                                                                                                                                            | 196 kB     00:00     
+(53/54): yum-3.4.3-137.57.amzn1.noarch.rpm                                                                                                                                         | 1.7 MB     00:00     
+(54/54): yum-metadata-parser-1.1.4-8.12.amzn1.x86_64.rpm                                                                                                                           |  29 kB     00:00     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                                      24 MB/s |  85 MB  00:00:03     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : tzdata-2015b-1.33.amzn1.noarch                                                                                                                                                       1/107 
+  Updating   : glibc-common-2.17-55.143.amzn1.x86_64                                                                                                                                                2/107 
+  Updating   : glibc-2.17-55.143.amzn1.x86_64                                                                                                                                                       3/107 
+  Updating   : libselinux-2.1.10-3.22.amzn1.x86_64                                                                                                                                                  4/107 
+  Updating   : libcom_err-1.42.12-4.35.amzn1.x86_64                                                                                                                                                 5/107 
+  Updating   : krb5-libs-1.10.3-37.29.amzn1.x86_64                                                                                                                                                  6/107 
+  Updating   : 1:openssl-1.0.1k-10.86.amzn1.x86_64                                                                                                                                                  7/107 
+  Updating   : python27-2.7.9-4.115.amzn1.x86_64                                                                                                                                                    8/107 
+  Updating   : python27-libs-2.7.9-4.115.amzn1.x86_64                                                                                                                                               9/107 
+  Updating   : ruby20-libs-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                             10/107 
+  Updating   : python27-jmespath-0.7.1-1.9.amzn1.noarch                                                                                                                                            11/107 
+  Updating   : python27-bcdoc-0.16.0-1.9.amzn1.noarch                                                                                                                                              12/107 
+  Updating   : python27-setuptools-12.2-1.30.amzn1.noarch                                                                                                                                          13/107 
+  Updating   : libcurl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                    14/107 
+  Updating   : curl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                       15/107 
+  Updating   : rpm-4.11.2-2.64.amzn1.x86_64                                                                                                                                                        16/107 
+  Updating   : rpm-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                                   17/107 
+  Updating   : gnupg2-2.0.25-2.29.amzn1.x86_64                                                                                                                                                     18/107 
+  Updating   : rpm-build-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                             19/107 
+  Updating   : rpm-python27-4.11.2-2.64.amzn1.x86_64                                                                                                                                               20/107 
+  Updating   : python27-botocore-1.0.0-0.1.b3.14.amzn1.noarch                                                                                                                                      21/107 
+  Updating   : rubygem20-bigdecimal-1.2.0-1.27.amzn1.x86_64                                                                                                                                        22/107 
+  Updating   : rubygems20-2.0.14-1.27.amzn1.noarch                                                                                                                                                 23/107 
+  Updating   : ruby20-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                                  24/107 
+  Updating   : rubygem20-psych-2.0.0-1.27.amzn1.x86_64                                                                                                                                             25/107 
+  Updating   : yum-metadata-parser-1.1.4-8.12.amzn1.x86_64                                                                                                                                         26/107 
+  Updating   : python27-configobj-4.7.2-7.15.amzn1.noarch                                                                                                                                          27/107 
+  Updating   : libss-1.42.12-4.35.amzn1.x86_64                                                                                                                                                     28/107 
+  Updating   : e2fsprogs-libs-1.42.12-4.35.amzn1.x86_64                                                                                                                                            29/107 
+  Updating   : e2fsprogs-1.42.12-4.35.amzn1.x86_64                                                                                                                                                 30/107 
+  Updating   : cryptsetup-libs-1.6.3-2.19.amzn1.x86_64                                                                                                                                             31/107 
+  Updating   : cryptsetup-1.6.3-2.19.amzn1.x86_64                                                                                                                                                  32/107 
+  Updating   : cloud-init-0.7.6-2.5.amzn1.noarch                                                                                                                                                   33/107 
+  Updating   : aws-amitools-ec2-1.5.7-1.0.amzn1.noarch                                                                                                                                             34/107 
+  Updating   : yum-3.4.3-137.57.amzn1.noarch                                                                                                                                                       35/107 
+  Updating   : ruby20-irb-2.0.0.645-1.27.amzn1.noarch                                                                                                                                              36/107 
+  Updating   : aws-cli-1.7.34-1.16.amzn1.noarch                                                                                                                                                    37/107 
+  Updating   : gpgme-1.4.3-5.15.amzn1.x86_64                                                                                                                                                       38/107 
+  Updating   : ec2-net-utils-0.4-1.23.amzn1.noarch                                                                                                                                                 39/107 
+  Updating   : ec2-utils-0.4-1.23.amzn1.noarch                                                                                                                                                     40/107 
+  Updating   : aws-cfn-bootstrap-1.4-9.4.amzn1.noarch                                                                                                                                              41/107 
+  Updating   : python27-pip-6.1.1-1.20.amzn1.noarch                                                                                                                                                42/107 
+  Updating   : python27-boto-2.38.0-1.7.amzn1.noarch                                                                                                                                               43/107 
+  Updating   : python27-devel-2.7.9-4.115.amzn1.x86_64                                                                                                                                             44/107 
+  Updating   : at-3.1.10-44.13.amzn1.x86_64                                                                                                                                                        45/107 
+  Updating   : libjpeg-turbo-1.2.90-5.10.amzn1.x86_64                                                                                                                                              46/107 
+  Updating   : unzip-6.0-2.9.amzn1.x86_64                                                                                                                                                          47/107 
+  Updating   : pcre-8.21-7.7.amzn1.x86_64                                                                                                                                                          48/107 
+  Updating   : time-1.7-38.9.amzn1.x86_64                                                                                                                                                          49/107 
+  Updating   : kernel-tools-3.14.44-32.39.amzn1.x86_64                                                                                                                                             50/107 
+  Updating   : libcap-ng-0.7.3-5.13.amzn1.x86_64                                                                                                                                                   51/107 
+  Updating   : aws-apitools-common-1.1.0-1.9.amzn1.noarch                                                                                                                                          52/107 
+  Updating   : tzdata-java-2015b-1.33.amzn1.noarch                                                                                                                                                 53/107 
+  Installing : kernel-3.14.44-32.39.amzn1.x86_64                                                                                                                                                   54/107 
+  Cleanup    : yum-3.4.3-137.54.amzn1.noarch                                                                                                                                                       55/107 
+  Cleanup    : aws-amitools-ec2-1.5.6-1.1.amzn1.noarch                                                                                                                                             56/107 
+  Cleanup    : aws-cli-1.7.14-1.8.amzn1.noarch                                                                                                                                                     57/107 
+  Cleanup    : cloud-init-0.7.6-2.4.amzn1.noarch                                                                                                                                                   58/107 
+  Cleanup    : python27-devel-2.7.9-4.114.amzn1.x86_64                                                                                                                                             59/107 
+  Cleanup    : python27-botocore-0.95.0-1.6.amzn1.noarch                                                                                                                                           60/107 
+  Cleanup    : python27-pip-6.0.8-1.18.amzn1.noarch                                                                                                                                                61/107 
+  Cleanup    : python27-setuptools-12.2-1.29.amzn1.noarch                                                                                                                                          62/107 
+  Cleanup    : python27-jmespath-0.6.1-1.6.amzn1.noarch                                                                                                                                            63/107 
+  Cleanup    : python27-configobj-4.7.2-7.14.amzn1.noarch                                                                                                                                          64/107 
+  Cleanup    : python27-bcdoc-0.13.0-1.6.amzn1.noarch                                                                                                                                              65/107 
+  Cleanup    : ec2-utils-0.4-1.22.amzn1.noarch                                                                                                                                                     66/107 
+  Cleanup    : python27-boto-2.36.0-1.6.amzn1.noarch                                                                                                                                               67/107 
+  Cleanup    : ec2-net-utils-0.4-1.22.amzn1.noarch                                                                                                                                                 68/107 
+  Cleanup    : ruby20-irb-2.0.0.643-1.21.amzn1.noarch                                                                                                                                              69/107 
+  Cleanup    : aws-cfn-bootstrap-1.4-5.4.amzn1.noarch                                                                                                                                              70/107 
+  Cleanup    : rpm-python27-4.11.2-2.63.amzn1.x86_64                                                                                                                                               71/107 
+  Cleanup    : rpm-build-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                             72/107 
+  Cleanup    : rubygem20-psych-2.0.0-1.21.amzn1.x86_64                                                                                                                                             73/107 
+  Cleanup    : ruby20-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                                  74/107 
+  Cleanup    : rubygem20-bigdecimal-1.2.0-1.21.amzn1.x86_64                                                                                                                                        75/107 
+  Cleanup    : rubygems20-2.0.14-1.21.amzn1.noarch                                                                                                                                                 76/107 
+  Cleanup    : e2fsprogs-1.42.12-1.34.amzn1.x86_64                                                                                                                                                 77/107 
+  Cleanup    : ruby20-libs-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                             78/107 
+  Cleanup    : rpm-4.11.2-2.63.amzn1.x86_64                                                                                                                                                        79/107 
+  Cleanup    : rpm-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                                   80/107 
+  Cleanup    : yum-metadata-parser-1.1.4-8.11.amzn1.x86_64                                                                                                                                         81/107 
+  Cleanup    : python27-libs-2.7.9-4.114.amzn1.x86_64                                                                                                                                              82/107 
+  Cleanup    : python27-2.7.9-4.114.amzn1.x86_64                                                                                                                                                   83/107 
+  Cleanup    : 1:openssl-1.0.1k-1.82.amzn1.x86_64                                                                                                                                                  84/107 
+  Cleanup    : cryptsetup-1.6.3-2.18.amzn1.x86_64                                                                                                                                                  85/107 
+  Cleanup    : curl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                       86/107 
+  Cleanup    : e2fsprogs-libs-1.42.12-1.34.amzn1.x86_64                                                                                                                                            87/107 
+  Cleanup    : libss-1.42.12-1.34.amzn1.x86_64                                                                                                                                                     88/107 
+  Cleanup    : gpgme-1.3.2-1.13.amzn1.x86_64                                                                                                                                                       89/107 
+  Cleanup    : gnupg2-2.0.25-2.28.amzn1.x86_64                                                                                                                                                     90/107 
+  Cleanup    : libcurl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                    91/107 
+  Cleanup    : krb5-libs-1.10.3-33.28.amzn1.x86_64                                                                                                                                                 92/107 
+  Cleanup    : at-3.1.10-44.12.amzn1.x86_64                                                                                                                                                        93/107 
+  Cleanup    : libcom_err-1.42.12-1.34.amzn1.x86_64                                                                                                                                                94/107 
+  Cleanup    : cryptsetup-libs-1.6.3-2.18.amzn1.x86_64                                                                                                                                             95/107 
+  Cleanup    : libcap-ng-0.7.3-5.12.amzn1.x86_64                                                                                                                                                   96/107 
+  Cleanup    : kernel-tools-3.14.35-28.38.amzn1.x86_64                                                                                                                                             97/107 
+  Cleanup    : time-1.7-37.1.8.amzn1.x86_64                                                                                                                                                        98/107 
+  Cleanup    : pcre-8.21-7.5.amzn1.x86_64                                                                                                                                                          99/107 
+  Cleanup    : unzip-6.0-1.8.amzn1.x86_64                                                                                                                                                         100/107 
+  Cleanup    : libjpeg-turbo-1.2.90-5.9.amzn1.x86_64                                                                                                                                              101/107 
+  Cleanup    : aws-apitools-common-1.1.0-1.8.amzn1.noarch                                                                                                                                         102/107 
+  Cleanup    : tzdata-java-2015a-1.31.amzn1.noarch                                                                                                                                                103/107 
+  Cleanup    : libselinux-2.1.10-3.21.amzn1.x86_64                                                                                                                                                104/107 
+  Cleanup    : glibc-common-2.17-55.140.amzn1.x86_64                                                                                                                                              105/107 
+  Cleanup    : glibc-2.17-55.140.amzn1.x86_64                                                                                                                                                     106/107 
+  Cleanup    : tzdata-2015a-1.31.amzn1.noarch                                                                                                                                                     107/107 
+  Verifying  : kernel-3.14.44-32.39.amzn1.x86_64                                                                                                                                                    1/107 
+  Verifying  : rpm-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                                    2/107 
+  Verifying  : libss-1.42.12-4.35.amzn1.x86_64                                                                                                                                                      3/107 
+  Verifying  : krb5-libs-1.10.3-37.29.amzn1.x86_64                                                                                                                                                  4/107 
+  Verifying  : aws-cfn-bootstrap-1.4-9.4.amzn1.noarch                                                                                                                                               5/107 
+  Verifying  : python27-jmespath-0.7.1-1.9.amzn1.noarch                                                                                                                                             6/107 
+  Verifying  : libjpeg-turbo-1.2.90-5.10.amzn1.x86_64                                                                                                                                               7/107 
+  Verifying  : python27-configobj-4.7.2-7.15.amzn1.noarch                                                                                                                                           8/107 
+  Verifying  : unzip-6.0-2.9.amzn1.x86_64                                                                                                                                                           9/107 
+  Verifying  : libcom_err-1.42.12-4.35.amzn1.x86_64                                                                                                                                                10/107 
+  Verifying  : e2fsprogs-libs-1.42.12-4.35.amzn1.x86_64                                                                                                                                            11/107 
+  Verifying  : tzdata-2015b-1.33.amzn1.noarch                                                                                                                                                      12/107 
+  Verifying  : rubygem20-bigdecimal-1.2.0-1.27.amzn1.x86_64                                                                                                                                        13/107 
+  Verifying  : 1:openssl-1.0.1k-10.86.amzn1.x86_64                                                                                                                                                 14/107 
+  Verifying  : libselinux-2.1.10-3.22.amzn1.x86_64                                                                                                                                                 15/107 
+  Verifying  : pcre-8.21-7.7.amzn1.x86_64                                                                                                                                                          16/107 
+  Verifying  : libcurl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                    17/107 
+  Verifying  : curl-7.40.0-3.51.amzn1.x86_64                                                                                                                                                       18/107 
+  Verifying  : time-1.7-38.9.amzn1.x86_64                                                                                                                                                          19/107 
+  Verifying  : rpm-python27-4.11.2-2.64.amzn1.x86_64                                                                                                                                               20/107 
+  Verifying  : python27-pip-6.1.1-1.20.amzn1.noarch                                                                                                                                                21/107 
+  Verifying  : ruby20-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                                  22/107 
+  Verifying  : ruby20-irb-2.0.0.645-1.27.amzn1.noarch                                                                                                                                              23/107 
+  Verifying  : rubygems20-2.0.14-1.27.amzn1.noarch                                                                                                                                                 24/107 
+  Verifying  : cloud-init-0.7.6-2.5.amzn1.noarch                                                                                                                                                   25/107 
+  Verifying  : e2fsprogs-1.42.12-4.35.amzn1.x86_64                                                                                                                                                 26/107 
+  Verifying  : ec2-net-utils-0.4-1.23.amzn1.noarch                                                                                                                                                 27/107 
+  Verifying  : python27-bcdoc-0.16.0-1.9.amzn1.noarch                                                                                                                                              28/107 
+  Verifying  : tzdata-java-2015b-1.33.amzn1.noarch                                                                                                                                                 29/107 
+  Verifying  : cryptsetup-libs-1.6.3-2.19.amzn1.x86_64                                                                                                                                             30/107 
+  Verifying  : python27-2.7.9-4.115.amzn1.x86_64                                                                                                                                                   31/107 
+  Verifying  : python27-libs-2.7.9-4.115.amzn1.x86_64                                                                                                                                              32/107 
+  Verifying  : glibc-2.17-55.143.amzn1.x86_64                                                                                                                                                      33/107 
+  Verifying  : glibc-common-2.17-55.143.amzn1.x86_64                                                                                                                                               34/107 
+  Verifying  : python27-setuptools-12.2-1.30.amzn1.noarch                                                                                                                                          35/107 
+  Verifying  : kernel-tools-3.14.44-32.39.amzn1.x86_64                                                                                                                                             36/107 
+  Verifying  : libcap-ng-0.7.3-5.13.amzn1.x86_64                                                                                                                                                   37/107 
+  Verifying  : python27-boto-2.38.0-1.7.amzn1.noarch                                                                                                                                               38/107 
+  Verifying  : rubygem20-psych-2.0.0-1.27.amzn1.x86_64                                                                                                                                             39/107 
+  Verifying  : aws-cli-1.7.34-1.16.amzn1.noarch                                                                                                                                                    40/107 
+  Verifying  : aws-amitools-ec2-1.5.7-1.0.amzn1.noarch                                                                                                                                             41/107 
+  Verifying  : yum-3.4.3-137.57.amzn1.noarch                                                                                                                                                       42/107 
+  Verifying  : aws-apitools-common-1.1.0-1.9.amzn1.noarch                                                                                                                                          43/107 
+  Verifying  : ec2-utils-0.4-1.23.amzn1.noarch                                                                                                                                                     44/107 
+  Verifying  : yum-metadata-parser-1.1.4-8.12.amzn1.x86_64                                                                                                                                         45/107 
+  Verifying  : python27-botocore-1.0.0-0.1.b3.14.amzn1.noarch                                                                                                                                      46/107 
+  Verifying  : at-3.1.10-44.13.amzn1.x86_64                                                                                                                                                        47/107 
+  Verifying  : ruby20-libs-2.0.0.645-1.27.amzn1.x86_64                                                                                                                                             48/107 
+  Verifying  : gnupg2-2.0.25-2.29.amzn1.x86_64                                                                                                                                                     49/107 
+  Verifying  : rpm-build-libs-4.11.2-2.64.amzn1.x86_64                                                                                                                                             50/107 
+  Verifying  : gpgme-1.4.3-5.15.amzn1.x86_64                                                                                                                                                       51/107 
+  Verifying  : rpm-4.11.2-2.64.amzn1.x86_64                                                                                                                                                        52/107 
+  Verifying  : cryptsetup-1.6.3-2.19.amzn1.x86_64                                                                                                                                                  53/107 
+  Verifying  : python27-devel-2.7.9-4.115.amzn1.x86_64                                                                                                                                             54/107 
+  Verifying  : krb5-libs-1.10.3-33.28.amzn1.x86_64                                                                                                                                                 55/107 
+  Verifying  : python27-jmespath-0.6.1-1.6.amzn1.noarch                                                                                                                                            56/107 
+  Verifying  : pcre-8.21-7.5.amzn1.x86_64                                                                                                                                                          57/107 
+  Verifying  : e2fsprogs-1.42.12-1.34.amzn1.x86_64                                                                                                                                                 58/107 
+  Verifying  : rpm-python27-4.11.2-2.63.amzn1.x86_64                                                                                                                                               59/107 
+  Verifying  : time-1.7-37.1.8.amzn1.x86_64                                                                                                                                                        60/107 
+  Verifying  : ruby20-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                                  61/107 
+  Verifying  : rubygem20-bigdecimal-1.2.0-1.21.amzn1.x86_64                                                                                                                                        62/107 
+  Verifying  : aws-cli-1.7.14-1.8.amzn1.noarch                                                                                                                                                     63/107 
+  Verifying  : python27-configobj-4.7.2-7.14.amzn1.noarch                                                                                                                                          64/107 
+  Verifying  : cryptsetup-1.6.3-2.18.amzn1.x86_64                                                                                                                                                  65/107 
+  Verifying  : ruby20-irb-2.0.0.643-1.21.amzn1.noarch                                                                                                                                              66/107 
+  Verifying  : libselinux-2.1.10-3.21.amzn1.x86_64                                                                                                                                                 67/107 
+  Verifying  : glibc-common-2.17-55.140.amzn1.x86_64                                                                                                                                               68/107 
+  Verifying  : tzdata-java-2015a-1.31.amzn1.noarch                                                                                                                                                 69/107 
+  Verifying  : cloud-init-0.7.6-2.4.amzn1.noarch                                                                                                                                                   70/107 
+  Verifying  : gpgme-1.3.2-1.13.amzn1.x86_64                                                                                                                                                       71/107 
+  Verifying  : ruby20-libs-2.0.0.643-1.21.amzn1.x86_64                                                                                                                                             72/107 
+  Verifying  : aws-apitools-common-1.1.0-1.8.amzn1.noarch                                                                                                                                          73/107 
+  Verifying  : tzdata-2015a-1.31.amzn1.noarch                                                                                                                                                      74/107 
+  Verifying  : rpm-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                                   75/107 
+  Verifying  : gnupg2-2.0.25-2.28.amzn1.x86_64                                                                                                                                                     76/107 
+  Verifying  : libcurl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                    77/107 
+  Verifying  : python27-libs-2.7.9-4.114.amzn1.x86_64                                                                                                                                              78/107 
+  Verifying  : yum-metadata-parser-1.1.4-8.11.amzn1.x86_64                                                                                                                                         79/107 
+  Verifying  : at-3.1.10-44.12.amzn1.x86_64                                                                                                                                                        80/107 
+  Verifying  : aws-amitools-ec2-1.5.6-1.1.amzn1.noarch                                                                                                                                             81/107 
+  Verifying  : python27-botocore-0.95.0-1.6.amzn1.noarch                                                                                                                                           82/107 
+  Verifying  : glibc-2.17-55.140.amzn1.x86_64                                                                                                                                                      83/107 
+  Verifying  : libcap-ng-0.7.3-5.12.amzn1.x86_64                                                                                                                                                   84/107 
+  Verifying  : rpm-build-libs-4.11.2-2.63.amzn1.x86_64                                                                                                                                             85/107 
+  Verifying  : curl-7.40.0-1.49.amzn1.x86_64                                                                                                                                                       86/107 
+  Verifying  : unzip-6.0-1.8.amzn1.x86_64                                                                                                                                                          87/107 
+  Verifying  : e2fsprogs-libs-1.42.12-1.34.amzn1.x86_64                                                                                                                                            88/107 
+  Verifying  : 1:openssl-1.0.1k-1.82.amzn1.x86_64                                                                                                                                                  89/107 
+  Verifying  : python27-boto-2.36.0-1.6.amzn1.noarch                                                                                                                                               90/107 
+  Verifying  : rubygems20-2.0.14-1.21.amzn1.noarch                                                                                                                                                 91/107 
+  Verifying  : python27-bcdoc-0.13.0-1.6.amzn1.noarch                                                                                                                                              92/107 
+  Verifying  : aws-cfn-bootstrap-1.4-5.4.amzn1.noarch                                                                                                                                              93/107 
+  Verifying  : rubygem20-psych-2.0.0-1.21.amzn1.x86_64                                                                                                                                             94/107 
+  Verifying  : python27-2.7.9-4.114.amzn1.x86_64                                                                                                                                                   95/107 
+  Verifying  : libcom_err-1.42.12-1.34.amzn1.x86_64                                                                                                                                                96/107 
+  Verifying  : yum-3.4.3-137.54.amzn1.noarch                                                                                                                                                       97/107 
+  Verifying  : ec2-utils-0.4-1.22.amzn1.noarch                                                                                                                                                     98/107 
+  Verifying  : libss-1.42.12-1.34.amzn1.x86_64                                                                                                                                                     99/107 
+  Verifying  : kernel-tools-3.14.35-28.38.amzn1.x86_64                                                                                                                                            100/107 
+  Verifying  : python27-setuptools-12.2-1.29.amzn1.noarch                                                                                                                                         101/107 
+  Verifying  : python27-pip-6.0.8-1.18.amzn1.noarch                                                                                                                                               102/107 
+  Verifying  : ec2-net-utils-0.4-1.22.amzn1.noarch                                                                                                                                                103/107 
+  Verifying  : libjpeg-turbo-1.2.90-5.9.amzn1.x86_64                                                                                                                                              104/107 
+  Verifying  : python27-devel-2.7.9-4.114.amzn1.x86_64                                                                                                                                            105/107 
+  Verifying  : cryptsetup-libs-1.6.3-2.18.amzn1.x86_64                                                                                                                                            106/107 
+  Verifying  : rpm-4.11.2-2.63.amzn1.x86_64                                                                                                                                                       107/107 
+
+Installed:
+  kernel.x86_64 0:3.14.44-32.39.amzn1                                                                                                                                                                     
+
+Updated:
+  at.x86_64 0:3.1.10-44.13.amzn1                     aws-amitools-ec2.noarch 0:1.5.7-1.0.amzn1      aws-apitools-common.noarch 0:1.1.0-1.9.amzn1         aws-cfn-bootstrap.noarch 0:1.4-9.4.amzn1        
+  aws-cli.noarch 0:1.7.34-1.16.amzn1                 cloud-init.noarch 0:0.7.6-2.5.amzn1            cryptsetup.x86_64 0:1.6.3-2.19.amzn1                 cryptsetup-libs.x86_64 0:1.6.3-2.19.amzn1       
+  curl.x86_64 0:7.40.0-3.51.amzn1                    e2fsprogs.x86_64 0:1.42.12-4.35.amzn1          e2fsprogs-libs.x86_64 0:1.42.12-4.35.amzn1           ec2-net-utils.noarch 0:0.4-1.23.amzn1           
+  ec2-utils.noarch 0:0.4-1.23.amzn1                  glibc.x86_64 0:2.17-55.143.amzn1               glibc-common.x86_64 0:2.17-55.143.amzn1              gnupg2.x86_64 0:2.0.25-2.29.amzn1               
+  gpgme.x86_64 0:1.4.3-5.15.amzn1                    kernel-tools.x86_64 0:3.14.44-32.39.amzn1      krb5-libs.x86_64 0:1.10.3-37.29.amzn1                libcap-ng.x86_64 0:0.7.3-5.13.amzn1             
+  libcom_err.x86_64 0:1.42.12-4.35.amzn1             libcurl.x86_64 0:7.40.0-3.51.amzn1             libjpeg-turbo.x86_64 0:1.2.90-5.10.amzn1             libselinux.x86_64 0:2.1.10-3.22.amzn1           
+  libss.x86_64 0:1.42.12-4.35.amzn1                  openssl.x86_64 1:1.0.1k-10.86.amzn1            pcre.x86_64 0:8.21-7.7.amzn1                         python27.x86_64 0:2.7.9-4.115.amzn1             
+  python27-bcdoc.noarch 0:0.16.0-1.9.amzn1           python27-boto.noarch 0:2.38.0-1.7.amzn1        python27-botocore.noarch 0:1.0.0-0.1.b3.14.amzn1     python27-configobj.noarch 0:4.7.2-7.15.amzn1    
+  python27-devel.x86_64 0:2.7.9-4.115.amzn1          python27-jmespath.noarch 0:0.7.1-1.9.amzn1     python27-libs.x86_64 0:2.7.9-4.115.amzn1             python27-pip.noarch 0:6.1.1-1.20.amzn1          
+  python27-setuptools.noarch 0:12.2-1.30.amzn1       rpm.x86_64 0:4.11.2-2.64.amzn1                 rpm-build-libs.x86_64 0:4.11.2-2.64.amzn1            rpm-libs.x86_64 0:4.11.2-2.64.amzn1             
+  rpm-python27.x86_64 0:4.11.2-2.64.amzn1            ruby20.x86_64 0:2.0.0.645-1.27.amzn1           ruby20-irb.noarch 0:2.0.0.645-1.27.amzn1             ruby20-libs.x86_64 0:2.0.0.645-1.27.amzn1       
+  rubygem20-bigdecimal.x86_64 0:1.2.0-1.27.amzn1     rubygem20-psych.x86_64 0:2.0.0-1.27.amzn1      rubygems20.noarch 0:2.0.14-1.27.amzn1                time.x86_64 0:1.7-38.9.amzn1                    
+  tzdata.noarch 0:2015b-1.33.amzn1                   tzdata-java.noarch 0:2015b-1.33.amzn1          unzip.x86_64 0:6.0-2.9.amzn1                         yum.noarch 0:3.4.3-137.57.amzn1                 
+  yum-metadata-parser.x86_64 0:1.1.4-8.12.amzn1     
+
+Complete!
