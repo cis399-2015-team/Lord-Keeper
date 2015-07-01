@@ -12,7 +12,8 @@ Filesystem      Size  Used Avail Use% Mounted on
 devtmpfs        490M   56K  490M   1% /dev
 tmpfs           499M     0  499M   0% /dev/shm
 
-4) command: free -m
+4) Instance: i-fa72d632	
+    command: free -m
             total       used       free     shared    buffers     cached
 Mem:           996        471        524          0         11        398
 -/+ buffers/cache:         60        935
