@@ -2,6 +2,7 @@
 	                IP: 10.0.6.127
 
    Matt Rossetto: Instance ID: i-da43e712
+			   IP: 10.0.6.70
 
 2)Public IP: This can be found by looking at the description tab of an instance. The public IP should be listed there.
 
@@ -119,4 +120,11 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
 
-
+7) Instance: i-da43e712
+    command: route -n 
+     Output:
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         10.0.6.1        0.0.0.0         UG    0      0        0 eth0
+10.0.6.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
+169.254.169.254 0.0.0.0         255.255.255.255 UH    0      0        0 eth0
