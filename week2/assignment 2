@@ -19,7 +19,8 @@ Mem:           996        471        524          0         11        398
 -/+ buffers/cache:         60        935
 Swap:            0          0          0
 
-5) command: ps aux
+5) InsInstance: i-fa72d632
+       command: ps aux
 
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         1  0.0  0.1  19596  1604 ?        Ss   17:32   0:00 /sbin/init
