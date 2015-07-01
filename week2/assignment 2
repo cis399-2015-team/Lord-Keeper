@@ -1005,7 +1005,7 @@ Updated:
 Complete!
 
 10b) Instance: i-fa72d632
-     command: sudo yum update, sudo yum update “specific package"
+     command: sudo yum update, sudo yum update “specific package" 
       Output:
 
 Loaded plugins: priorities, update-motd, upgrade-helper
