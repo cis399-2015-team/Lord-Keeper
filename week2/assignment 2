@@ -19,4 +19,84 @@ Mem:           996        471        524          0         11        398
 -/+ buffers/cache:         60        935
 Swap:            0          0          0
 
+5) command: ps aux
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1  19596  1604 ?        Ss   17:32   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    17:32   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    17:32   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   17:32   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    17:32   0:00 [kworker/u30:0]
+root         7  0.0  0.0      0     0 ?        S    17:32   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    17:32   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    17:32   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S<   17:32   0:00 [khelper]
+root        11  0.0  0.0      0     0 ?        S    17:32   0:00 [kdevtmpfs]
+root        12  0.0  0.0      0     0 ?        S<   17:32   0:00 [netns]
+root        13  0.0  0.0      0     0 ?        S    17:32   0:00 [kworker/u30:1]
+root        19  0.0  0.0      0     0 ?        S    17:32   0:00 [xenwatch]
+root        20  0.0  0.0      0     0 ?        S    17:32   0:00 [xenbus]
+root        21  0.0  0.0      0     0 ?        S    17:32   0:00 [kworker/0:1]
+root       115  0.0  0.0      0     0 ?        S<   17:32   0:00 [writeback]
+root       118  0.0  0.0      0     0 ?        SN   17:32   0:00 [ksmd]
+root       119  0.0  0.0      0     0 ?        SN   17:32   0:00 [khugepaged]
+root       120  0.0  0.0      0     0 ?        S<   17:32   0:00 [kintegrityd]
+root       121  0.0  0.0      0     0 ?        S<   17:32   0:00 [bioset]
+root       122  0.0  0.0      0     0 ?        S<   17:32   0:00 [crypto]
+root       124  0.0  0.0      0     0 ?        S<   17:32   0:00 [kblockd]
+root       473  0.0  0.0      0     0 ?        S<   17:32   0:00 [md]
+root       598  0.0  0.0      0     0 ?        S    17:32   0:00 [khungtaskd]
+root       603  0.0  0.0      0     0 ?        S    17:32   0:00 [kswapd0]
+root       671  0.0  0.0      0     0 ?        S    17:32   0:00 [fsnotify_mark]
+root       685  0.0  0.0      0     0 ?        S<   17:32   0:00 [kthrotld]
+root       692  0.0  0.0      0     0 ?        S    17:32   0:00 [khvcd]
+root       740  0.0  0.0      0     0 ?        S<   17:32   0:00 [deferwq]
+root      1360  0.0  0.0      0     0 ?        S    17:32   0:00 [jbd2/xvda1-8]
+root      1361  0.0  0.0      0     0 ?        S<   17:32   0:00 [ext4-rsv-conver]
+root      1398  0.0  0.1  11364  1588 ?        Ss   17:32   0:00 /sbin/udevd -d
+root      1515  0.0  0.1  11292  1140 ?        S    17:32   0:00 /sbin/udevd -d
+root      1516  0.0  0.1  11292  1072 ?        S    17:32   0:00 /sbin/udevd -d
+root      1519  0.0  0.0      0     0 ?        S<   17:32   0:00 [kpsmoused]
+root      1549  0.0  0.0      0     0 ?        S    17:32   0:00 [kworker/0:2]
+root      1703  0.0  0.0      0     0 ?        S    17:32   0:00 [kauditd]
+root      1746  0.0  0.0      0     0 ?        S<   17:32   0:00 [ipv6_addrconf]
+root      1874  0.0  0.0   9320   960 ?        Ss   17:32   0:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient-eth0.
+root      1915  0.0  0.0  48556   756 ?        S<sl 17:32   0:00 auditd
+root      1933  0.0  0.1 247424  1324 ?        Sl   17:32   0:00 /sbin/rsyslogd -i /var/run/syslogd.pid -c 5
+root      1949  0.0  0.0   4300    80 ?        Ss   17:32   0:00 rngd --no-tpm=1 --quiet
+dbus      1961  0.0  0.0  21752   672 ?        Ss   17:32   0:00 dbus-daemon --system
+root      2081  0.0  0.0      0     0 ?        S<   17:32   0:00 [kworker/0:1H]
+root      2143  0.0  0.1  80100  1292 ?        Ss   17:32   0:00 /usr/sbin/sshd
+ntp       2167  0.0  0.1  29240  2020 ?        Ss   17:32   0:00 ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
+root      2182  0.0  0.2  91428  2400 ?        Ss   17:32   0:00 sendmail: accepting connections
+smmsp     2189  0.0  0.1  82884  2036 ?        Ss   17:32   0:00 sendmail: Queue runner@01:00:00 for /var/spool/clientm
+root      2197  0.0  0.1 119472  1212 ?        Ss   17:32   0:00 crond
+root      2207  0.0  0.0  17024   372 ?        Ss   17:32   0:00 /usr/sbin/atd
+root      2240  0.0  0.0   6420   784 ttyS0    Ss+  17:32   0:00 /sbin/agetty ttyS0 9600 vt100-nav
+root      2243  0.0  0.0   4300   612 tty1     Ss+  17:32   0:00 /sbin/mingetty /dev/tty1
+root      2247  0.0  0.0   4300   608 tty2     Ss+  17:32   0:00 /sbin/mingetty /dev/tty2
+root      2249  0.0  0.0   4300   608 tty3     Ss+  17:32   0:00 /sbin/mingetty /dev/tty3
+root      2251  0.0  0.0   4300   608 tty4     Ss+  17:32   0:00 /sbin/mingetty /dev/tty4
+root      2255  0.0  0.0   4300   608 tty5     Ss+  17:32   0:00 /sbin/mingetty /dev/tty5
+root      2258  0.0  0.0   4300   608 tty6     Ss+  17:32   0:00 /sbin/mingetty /dev/tty6
+root      2272  0.0  0.4 113848  4268 ?        Ss   17:43   0:00 sshd: ec2-user [priv]
+ec2-user  2274  0.0  0.1 113848  1972 ?        S    17:43   0:00 sshd: ec2-user@pts/0
+ec2-user  2275  0.0  0.1 115268  1956 pts/0    Ss+  17:43   0:00 -bash
+root      2304  0.0  0.4 113848  4272 ?        Ss   17:53   0:00 sshd: ec2-user [priv]
+ec2-user  2306  0.0  0.1 113848  1976 ?        S    17:53   0:00 sshd: ec2-user@pts/1
+ec2-user  2307  0.0  0.1 115268  1976 pts/1    Ss+  17:53   0:00 -bash
+root      2343  0.0  0.0  14968   892 ?        Ss   18:01   0:00 /usr/sbin/anacron -s
+root      2374  0.0  0.4 113848  4268 ?        Ss   18:07   0:00 sshd: ec2-user [priv]
+ec2-user  2376  0.0  0.1 113848  1972 ?        S    18:07   0:00 sshd: ec2-user@pts/2
+ec2-user  2377  0.0  0.1 115268  1884 pts/2    Ss+  18:07   0:00 -bash
+root      2430  0.0  0.4 113848  4268 ?        Ss   18:32   0:00 sshd: ec2-user [priv]
+ec2-user  2432  0.0  0.1 113848  1972 ?        S    18:32   0:00 sshd: ec2-user@pts/3
+ec2-user  2433  0.0  0.1 115268  1952 pts/3    Ss+  18:32   0:00 -bash
+root     22131  0.0  0.4 113848  4264 ?        Ss   18:41   0:00 sshd: ec2-user [priv]
+ec2-user 22133  0.0  0.1 113848  1968 ?        S    18:41   0:00 sshd: ec2-user@pts/4
+ec2-user 22134  0.0  0.1 115268  1884 pts/4    Ss   18:41   0:00 -bash
+ec2-user 22157  0.0  0.1 117164  1208 pts/4    R+   18:41   0:00 ps aux
+
+
+
 
