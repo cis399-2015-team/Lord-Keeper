@@ -521,7 +521,7 @@ parted-2.1-21.18.amzn1.x86_64
 bind-utils-9.8.2-0.30.rc1.36.amzn1.x86_64
 
 10a) Instance: i-da43e712
-      command: sudo yum update
+      command: sudo yum update, sudo yum update “specific package"
        Output:
 
 Loaded plugins: priorities, update-motd, upgrade-helper
@@ -1005,7 +1005,7 @@ Updated:
 Complete!
 
 10b) Instance: i-fa72d632
-     command: sudo yum update
+     command: sudo yum update, sudo yum update “specific package"
       Output:
 
 Loaded plugins: priorities, update-motd, upgrade-helper
