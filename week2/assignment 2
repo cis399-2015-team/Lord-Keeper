@@ -4,6 +4,9 @@
    Matt Rossetto: Instance ID: i-da43e712
 			   IP: 10.0.6.70
 
+   3rd Instance: Instance ID: i-7cf75db4
+			  IP: 10.0.6.254
+
 2)Public IP: This can be found by looking at the description tab of an instance. The public IP should be listed there.
 
 3) Instance: i-fa72d632
