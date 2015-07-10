@@ -1,0 +1,10 @@
+2. Stop sshd.
+
+# puppet agent -t
+info: Caching catalog for ip-10-0-6-70.us-west-2.compute.internal
+info: Applying configuration version '1436570385'
+notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/mode: mode changed '0644' to '0444'
+info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[sshd]
+notice: /Stage[main]/Sshd/Service[sshd]/ensure: ensure changed 'stopped' to 'running'
+notice: /Stage[main]/Sshd/Service[sshd]: Triggered 'refresh' from 1 events
+notice: Finished catalog run in 0.55 seconds

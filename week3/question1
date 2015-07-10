@@ -1,0 +1,55 @@
+1. Remove the sshd package.
+
+# puppet agent -t
+info: Caching catalog for ip-10-0-6-70.us-west-2.compute.internal
+info: Applying configuration version '1436570385'
+notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created
+notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: 
+--- /etc/ssh/sshd_config	2015-03-11 23:34:46.000000000 +0000
++++ /tmp/puppet-file20150710-30789-1shlwlq-0	2015-07-10 23:26:51.513673168 +0000
+@@ -54,7 +54,7 @@
+ 
+ # The default is to check both .ssh/authorized_keys and .ssh/authorized_keys2
+ # but this is overridden so installations will only check .ssh/authorized_keys
+-AuthorizedKeysFile	.ssh/authorized_keys
++AuthorizedKeysFile .ssh/authorized_keys
+ 
+ #AuthorizedPrincipalsFile none
+ 
+@@ -95,8 +95,8 @@
+ #GSSAPIKeyExchange no
+ #GSSAPIEnablek5users no
+ 
+-# Set this to 'yes' to enable PAM authentication, account processing, 
+-# and session processing. If this is enabled, PAM authentication will 
++# Set this to 'yes' to enable PAM authentication, account processing,
++# and session processing. If this is enabled, PAM authentication will
+ # be allowed through the ChallengeResponseAuthentication and
+ # PasswordAuthentication.  Depending on your PAM configuration,
+ # PAM authentication via ChallengeResponseAuthentication may bypass
+@@ -145,7 +145,7 @@
+ AcceptEnv XMODIFIERS
+ 
+ # override default of no subsystems
+-Subsystem	sftp	/usr/libexec/openssh/sftp-server
++Subsystem sftp	/usr/libexec/openssh/sftp-server
+ 
+ # Uncomment this if you want to use .local domain
+ #Host *.local
+@@ -155,4 +155,4 @@
+ #Match User anoncvs
+ #	X11Forwarding no
+ #	AllowTcpForwarding no
+-#	ForceCommand cvs server
++#	ForceCommand cvs server
+\ No newline at end of file
+
+info: FileBucket adding {md5}aebeec1114bd5bedc42213a4de01bc17
+info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Filebucketed /etc/ssh/sshd_config to puppet with sum aebeec1114bd5bedc42213a4de01bc17
+notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: content changed '{md5}aebeec1114bd5bedc42213a4de01bc17' to '{md5}df40040e645940d211cbf650ee9739e8'
+notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/mode: mode changed '0600' to '0444'
+info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[sshd]
+info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[sshd]
+notice: /Stage[main]/Sshd/Service[sshd]/ensure: ensure changed 'stopped' to 'running'
+notice: /Stage[main]/Sshd/Service[sshd]: Triggered 'refresh' from 2 events
+notice: Finished catalog run in 1.58 seconds
