@@ -1,0 +1,6 @@
+info: Caching catalog for ip-10-0-6-127.us-west-2.compute.interna
+info: Applying configuration version '1436572106'
+notice: /Stage[main]/Sshd/Service[sshd]/ensure: ensure changed 'stopped' to 'running'
+notice: Finished catalog run in 0.27 seconds
+
+
