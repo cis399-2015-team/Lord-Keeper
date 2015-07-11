@@ -2,5 +2,6 @@
 
 info: Caching catalog for ip-10-0-6-127.us-west-2.compute.interna
 info: Applying configuration version '1436572106'
-notice: Finished catalog run in 0.27 seconds
-
+notice: /Stage[main]/Sshd/Ssh_authorized_key[yufang-key-pair]/ensure: created
+notice: /Stage[main]/Sshd/Ssh_authorized_key[matt-key-pair]/ensure: created
+notice: Finished catalog run in 0.43 seconds
