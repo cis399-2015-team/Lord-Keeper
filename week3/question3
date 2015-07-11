@@ -1,1 +1,33 @@
 3. Modify or delete /etc/ssh/sshd_config.
+
+info: Caching catalog for ip-10-0-6-127.us-west-2.compute.interna
+info: Applying configuration version '1436572106'
+notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: 
+--- /etc/ssh/sshd_config	2015-07-11 00:45:18.968535664 +0000
++++ /tmp/puppet-file20150711-14030-1le9317-0	2015-07-11 00:45:36.428646636 +0000
+@@ -143,6 +143,11 @@
+ AcceptEnv LC_PAPER LC_NAME LC_ADDRESS LC_TELEPHONE LC_MEASUREMENT
+ AcceptEnv LC_IDENTIFICATION LC_ALL LANGUAGE
+ AcceptEnv XMODIFIERS
++
++# override default of no subsystems
++Subsystem sftp	/usr/libexec/openssh/sftp-server
++
++# Uncomment this if you want to use .local domain
+ #Host *.local
+ #	CheckHostIP no
+ 
+@@ -150,4 +155,4 @@
+ #Match User anoncvs
+ #	X11Forwarding no
+ #	AllowTcpForwarding no
+-#	ForceCommand cvs server
++#	ForceCommand cvs server
+\ No newline at end of file
+
+info: FileBucket adding {md5}ad52bc317210e04ff4852664c041a81c
+info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Filebucketed /etc/ssh/sshd_config to puppet with sum ad52bc317210e04ff4852664c041a81c
+notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: content changed '{md5}ad52bc317210e04ff4852664c041a81c' to '{md5}df40040e645940d211cbf650ee9739e8'
+info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[sshd]
+notice: /Stage[main]/Sshd/Service[sshd]: Triggered 'refresh' from 1 events
+notice: Finished catalog run in 0.36 seconds
