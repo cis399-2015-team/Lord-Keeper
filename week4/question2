@@ -1,3 +1,9 @@
+Jul 19 21:52:40 ip-10-0-6-135 postfix/qmgr[26657]: 81CB940E99: from=<ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>, size=497, nrcpt=1 (queue active)
+Jul 19 21:52:42 ip-10-0-6-135 postfix/smtp[26774]: 81CB940E99: to=<stevev@cs.uoregon.edu>, relay=mail.cs.uoregon.edu[128.223.4.18]:25, delay=1.6, delays=0.01/0/0.1/1.5, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 426912E0ED5)
+Jul 19 21:52:42 ip-10-0-6-135 postfix/qmgr[26657]: 81CB940E99: removed
+
+
+
 Jul 20 18:03:01 ip-10-0-6-135 postfix/pickup[5159]: C48B340ECE: uid=500 from=<ec2-user>
 Jul 20 18:03:01 ip-10-0-6-135 postfix/cleanup[5438]: C48B340ECE: message-id=<20150720180301.C48B340ECE@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>
 Jul 20 18:03:01 ip-10-0-6-135 postfix/qmgr[26657]: C48B340ECE: from=<ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>, size=4293, nrcpt=1 (queue active)
