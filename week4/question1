@@ -1,9 +1,54 @@
 1. First Email:
 
-Subject: CIS 399 - Sys Admin - Week 4
+	X-Original-To: stevev@cs.uoregon.edu
+	Delivered-To: stevev@cs.uoregon.edu
+	Received: from ec2-52-10-250-92.us-west-2.compute.amazonaws.com (ec2-52-10-250-92.us-west-2.compute.amazonaws.com [52.10.250.92])
+	by mail.cs.uoregon.edu (Postfix) with ESMTP id 426912E0ED5
+	for <stevev@cs.uoregon.edu>; Sun, 19 Jul 2015 14:52:40 -0700 (PDT)
+	Received: by ec2-52-10-250-92.us-west-2.compute.amazonaws.com (Postfix, from userid 500)
+	id 81CB940E99; Sun, 19 Jul 2015 21:52:40 +0000 (UTC)
+Message-Id: <20150719215240.81CB940E99@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>
+	X-Greylist: Default is to whitelist mail, not delayed by milter-greylist-4.3.9 (mail.cs.uoregon.edu [0.0.0.0]); Sun, 19 Jul 2015 14:52:41 -0700 (PDT)
+	X-Scanned-By: MIMEDefang 2.73 on 128.223.4.18
+	X-Loop: stevev
+	From: ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com (EC2 Default User)
+	To: undisclosed-recipients:;
+	Subject: CIS 399 - Sys Admin - Assignment 4 Email Test
+	Date: Sun, 19 Jul 2015 21:52:40 +0000 (UTC)
 
-Test email
+	This is a test email from our ec2 instance!
+
 
 2. Reply
 
- 
+ 	From stevev@hexadecimal.uoregon.edu  Mon Jul 20 00:36:07 2015
+	Return-Path: <stevev@hexadecimal.uoregon.edu>
+	X-Original-To: ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com
+	Delivered-To: ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com
+	Received: from hexadecimal.uoregon.edu (hexadecimal.uoregon.edu [128.223.142.97])
+	by ec2-52-10-250-92.us-west-2.compute.amazonaws.com (Postfix) with ESMTP id 9B5C740DF7
+	for <ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>; Mon, 20 Jul 2015 00:36:07 +0000 (UTC)
+	Received: from hexadecimal.uoregon.edu (localhost [127.0.0.1])
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Debian-8) with ESMTP id t6K0a7HL019152
+	for <ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>; Sun, 19 Jul 2015 17:36:07 -0700
+	Received: (from stevev@localhost)
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Submit) id t6K0a7IC019151;
+	Sun, 19 Jul 2015 17:36:07 -0700
+	From: Steve VanDevender <stevev@hexadecimal.uoregon.edu>
+	MIME-Version: 1.0
+	Content-Type: text/plain; charset=us-ascii
+	Content-Transfer-Encoding: 7bit
+	Message-ID: <21932.17015.214393.744308@hexadecimal.uoregon.edu>
+	Date: Sun, 19 Jul 2015 17:36:07 -0700
+	To: ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com (EC2 Default User)
+	Subject: CIS 399 - Sys Admin - Assignment 4 Email Test
+	In-Reply-To: <20150719215240.81CB940E99@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>
+	References: <20150719215240.81CB940E99@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>
+X-Mailer: VM 8.2.0b under 24.4.1 (i586-pc-linux-gnu)
+
+	EC2 Default User writes:
+ 	> This is a test email from our ec2 instance!
+
+	I got it.  Please send back the full headers of my reply.
+
+
