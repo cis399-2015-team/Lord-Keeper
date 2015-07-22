@@ -1,7 +1,16 @@
+Jul 19 21:52:40 ip-10-0-6-135 postfix/pickup[26656]: 81CB940E99: uid=500 from=<ec2-user>
+Jul 19 21:52:40 ip-10-0-6-135 postfix/cleanup[26668]: 81CB940E99: message-id=<20150719215240.81CB940E99@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>
 Jul 19 21:52:40 ip-10-0-6-135 postfix/qmgr[26657]: 81CB940E99: from=<ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>, size=497, nrcpt=1 (queue active)
 Jul 19 21:52:42 ip-10-0-6-135 postfix/smtp[26774]: 81CB940E99: to=<stevev@cs.uoregon.edu>, relay=mail.cs.uoregon.edu[128.223.4.18]:25, delay=1.6, delays=0.01/0/0.1/1.5, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 426912E0ED5)
 Jul 19 21:52:42 ip-10-0-6-135 postfix/qmgr[26657]: 81CB940E99: removed
 
+
+Jul 20 00:36:07 ip-10-0-6-135 postfix/smtpd[28295]: connect from hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 00:36:07 ip-10-0-6-135 postfix/smtpd[28295]: 9B5C740DF7: client=hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 00:36:07 ip-10-0-6-135 postfix/cleanup[28299]: 9B5C740DF7: message-id=<21932.17015.214393.744308@hexadecimal.uoregon.edu>
+Jul 20 00:36:07 ip-10-0-6-135 postfix/qmgr[26657]: 9B5C740DF7: from=<stevev@hexadecimal.uoregon.edu>, size=3579, nrcpt=1 (queue active)
+Jul 20 00:36:07 ip-10-0-6-135 postfix/local[28300]: 9B5C740DF7: to=<ec2-user@ec2-52-10-250-92.us-west-2.compute.amazonaws.com>, relay=local, delay=0.04, delays=0.04/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Jul 19 21:52:42 ip-10-0-6-135 postfix/qmgr[26657]: 81CB940E99: removed
 
 
 Jul 20 18:03:01 ip-10-0-6-135 postfix/pickup[5159]: C48B340ECE: uid=500 from=<ec2-user>
