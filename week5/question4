@@ -1,0 +1,10 @@
+4. Indicate the Puppet code you use to replicate content between your web server instances.
+
+This is in our httpd module, it will update the '/var/www/html' directory on 'puppet agent -t' for all the file contents in httpd/website directory.
+
+file { "/var/www/html":
+  	ensure  => directory,
+  	recurse => true,
+  	purge   => true,
+  	source  => "puppet:///modules/httpd/website",
+}
