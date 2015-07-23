@@ -1,1 +1,2 @@
-Lord-Keeper-1685844627.us-west-2.elb.amazonaws.com
+When one instance has the httpd service running, accessing through the load balancer still provides the web page.
+However, when all the instances have the httpd service stopped, then the web page will not load.
