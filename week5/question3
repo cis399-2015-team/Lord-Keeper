@@ -1,1 +1,26 @@
+3. Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.
 
+
+Agent1:
+	Health Check:
+	10.0.6.64 - - [23/Jul/2015:21:49:24 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "ELB-HealthChecker/1.0"
+	10.0.6.251 - - [23/Jul/2015:21:49:42 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "ELB-HealthChecker/1.0"
+
+	Access:
+	10.0.6.251 - - [23/Jul/2015:21:49:48 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+
+Agent2:
+	Health Check:
+	10.0.6.64 - - [23/Jul/2015:21:49:24 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "ELB-HealthChecker/1.0"
+	10.0.6.251 - - [23/Jul/2015:21:49:42 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "ELB-HealthChecker/1.0"
+
+	Access:
+	10.0.6.251 - - [23/Jul/2015:21:49:47 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
+
+Master:
+	Health Check:
+	10.0.6.64 - - [23/Jul/2015:21:49:24 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "ELB-HealthChecker/1.0"
+	10.0.6.251 - - [23/Jul/2015:21:49:42 +0000] "GET /index.html HTTP/1.1" 200 59 "-" "ELB-HealthChecker/1.0"
+	
+	Access:
+	10.0.6.251 - - [23/Jul/2015:21:49:46 +0000] "GET /index.html HTTP/1.1" 404 325 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36"
