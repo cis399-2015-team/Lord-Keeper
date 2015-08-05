@@ -6,7 +6,8 @@
 	The user's will have access to use these LAMP modules on their instances to build, deploy, and catalog data for software and other activities they may be working on. Support issues that may arise will be version control of these modules, and helping the user with issues that may appear when working with these modules. For the most part, the module configurations will help with majority of the basic issues like if somehow them module gets uninstalled, files get deleted, and module goes offline. 
 
 3. a discussion of security issues relevant to your project
-
+	Some security issues could be inputs from invalid users and invalid outp
+uts that would direct users to another site.
 
 4. a discussion of the work needed to complete the project and what might be needed to maintain it for continued future use
 	We will need to implement modules for a LAMP stack to complete this project. These modules will consist of MySQL, PHP, and Python; maybe another depending on time. We will need to maintain version control, configuration files, and adding additional features to the modules depending on request from the users.
