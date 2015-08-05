@@ -1,3 +1,4 @@
+Proposal:
 
 1. concrete goals for your project, and methods of testing and verification you will apply to determine whether those goals were met.
 	The goal of the project is to setup a LAMP stack with Puppet, which is a very beneficial setup to have in a workspace environment. We will be setting up more Puppet modules on our Puppet master to achieve this. We will be testing and verifying the setup with our Agent instances to ensure that the setup and configuration of these modules are setup properly. 
@@ -6,13 +7,10 @@
 	The user's will have access to use these LAMP modules on their instances to build, deploy, and catalog data for software and other activities they may be working on. Support issues that may arise will be version control of these modules, and helping the user with issues that may appear when working with these modules. For the most part, the module configurations will help with majority of the basic issues like if somehow them module gets uninstalled, files get deleted, and module goes offline. 
 
 3. a discussion of security issues relevant to your project
-	Some security issues could be inputs from invalid users and invalid outp
-uts that would direct users to another site.
+	Some security issues could be inputs from invalid users and invalid outputs that would direct users to another site. Any security breach to an instance, especially the Puppet Master, could have issues with file tampering and other various malicious attacks. User groups and file permissions may warrent help against such malicious attacks. 
 
 4. a discussion of the work needed to complete the project and what might be needed to maintain it for continued future use
 	We will need to implement modules for a LAMP stack to complete this project. These modules will consist of MySQL, PHP, and Python; maybe another depending on time. We will need to maintain version control, configuration files, and adding additional features to the modules depending on request from the users.
 
 5. documentation of the project, both for the system administration work involved and for your user community
-	-A log of all the inputs and usage 
-
-
+	Maintaining the Puppet configuration, the modules, logs of all the inputs and usage, and adding more infastructure to Puppet will be the vast majority of the work involved. But there will also be work involved where the User's are asking for help and/or wanting features added to Puppet in order to achieve tasks they cannot do without these specifications. 
