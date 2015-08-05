@@ -13,5 +13,6 @@ uts that would direct users to another site.
 	We will need to implement modules for a LAMP stack to complete this project. These modules will consist of MySQL, PHP, and Python; maybe another depending on time. We will need to maintain version control, configuration files, and adding additional features to the modules depending on request from the users.
 
 5. documentation of the project, both for the system administration work involved and for your user community
+	-A log of all the inputs and usage 
 
 
