@@ -12,3 +12,7 @@
 
 5. documentation of the project, both for the system administration work involved and for your user community
 	Maintaining the Puppet configuration, the modules, logs of all the inputs and usage, security, and adding more infastructure to Puppet will be the vast majority of the work involved. But there will also be work involved where the User's are asking for help and/or wanting features added to Puppet in order to achieve tasks they cannot do without these specifications. Further updates, implementation, and other miscellaneous are the vast majority the work involved. 
+
+
+Other Issues/Thoughts:
+Ran into some bottlenecks along the way that locked up Puppet and we had to reconfigure Puppet by flushing out all the old certificates and renewing them to get the Puppet agent to work again. In addition to that, setting up the wordpress files in the httpd module gave us some issues when crossing over to the Agents; however, we needed a clean install on repo to fix this. We also ran into an issue with trying to fork the database connection from the master so the agent instances can use the master database for all the wordpress activities, but couldn't resolve this. We tried to use the hostnames and ports to gain access, but nothing seemed to work. So for sake of time, each instance got their down wordpress database, mysql user, and permissions to use that table. 
